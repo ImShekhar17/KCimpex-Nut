@@ -79,13 +79,13 @@ export default function Industries() {
   const duplicatedIndustries = [...industries, ...industries];
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-12 md:py-16 lg:py-20 bg-white">
       <div className="container mx-auto px-4">
-        <div className="mb-12">
+        <div className="mb-8 md:mb-12">
           <div className="text-[#1e3a8a] uppercase text-sm font-medium mb-2 tracking-wide">
             Industries We Serve
           </div>
-          <h2 className="text-4xl font-bold">Applications</h2>
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold">Applications</h2>
         </div>
 
         <div
@@ -98,7 +98,7 @@ export default function Industries() {
               <div
                 key={index}
                 className="group cursor-pointer overflow-hidden rounded-lg border border-gray-200 hover:shadow-xl transition-shadow flex-shrink-0"
-                style={{ width: '300px' }}
+                style={{ width: '250px' }}
               >
                 <div className="aspect-[4/3] overflow-hidden">
                   <img
@@ -107,8 +107,8 @@ export default function Industries() {
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                 </div>
-                <div className="bg-white p-4 text-center">
-                  <h3 className="text-lg font-semibold text-[#1e3a8a]">
+                <div className="bg-white p-3 md:p-4 text-center">
+                  <h3 className="text-base md:text-lg font-semibold text-[#1e3a8a]">
                     {industry.name}
                   </h3>
                 </div>

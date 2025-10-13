@@ -77,28 +77,28 @@ export default function ProductRange() {
   };
 
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-12 md:py-16 lg:py-20 bg-gray-50">
       <div className="container mx-auto px-4">
-        <div className="mb-12">
+        <div className="mb-8 md:mb-12">
           <div className="text-[#6b7280] uppercase text-sm font-medium mb-2 tracking-wide">
             Category
           </div>
-          <h2 className="text-4xl font-bold">Product Range</h2>
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold">Product Range</h2>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
-          <div className="bg-white border border-gray-200 rounded-lg p-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-6 mb-4 md:mb-6">
+          <div className="bg-white border border-gray-200 rounded-lg p-4 md:p-6 lg:p-8">
             <div className="grid grid-cols-1 gap-6">
               {categories.map((category, idx) => (
                 <div key={idx} className="mb-4">
-                  <h3 className="text-lg font-bold text-[#1e3a8a] mb-3 flex items-center gap-2">
-                    <span className="text-xl">»</span> {category.title}
+                  <h3 className="text-base md:text-lg font-bold text-[#1e3a8a] mb-2 md:mb-3 flex items-center gap-2">
+                    <span className="text-lg md:text-xl">»</span> {category.title}
                   </h3>
                   {category.items.map((row, rowIdx) => (
-                    <div key={rowIdx} className="grid grid-cols-3 gap-4 mb-2">
+                    <div key={rowIdx} className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 md:gap-4 mb-2">
                       {row.map((item, itemIdx) => (
                         item && (
-                          <div key={itemIdx} className="text-sm text-gray-700 flex items-center gap-1 cursor-pointer hover:text-[#1e3a8a] transition-colors">
+                          <div key={itemIdx} className="text-xs md:text-sm text-gray-700 flex items-center gap-1 cursor-pointer hover:text-[#1e3a8a] transition-colors">
                             <span className="text-[#1e3a8a]">⊙</span> {item}
                           </div>
                         )
@@ -110,14 +110,14 @@ export default function ProductRange() {
             </div>
           </div>
 
-          <div className="bg-white border border-gray-200 rounded-lg p-8">
-            <h3 className="text-lg font-bold text-[#1e3a8a] mb-6 flex items-center gap-2">
-              <span className="text-xl">»</span> {stainlessSteel.title}
+          <div className="bg-white border border-gray-200 rounded-lg p-4 md:p-6 lg:p-8">
+            <h3 className="text-base md:text-lg font-bold text-[#1e3a8a] mb-4 md:mb-6 flex items-center gap-2">
+              <span className="text-lg md:text-xl">»</span> {stainlessSteel.title}
             </h3>
             {stainlessSteel.sections.map((section, idx) => (
-              <div key={idx} className="mb-6">
-                <h4 className="text-md font-bold text-[#1e3a8a] mb-3 flex items-center gap-2">
-                  <span className="text-xl">»</span> {section.subtitle}
+              <div key={idx} className="mb-4 md:mb-6">
+                <h4 className="text-sm md:text-base font-bold text-[#1e3a8a] mb-2 md:mb-3 flex items-center gap-2">
+                  <span className="text-lg md:text-xl">»</span> {section.subtitle}
                 </h4>
                 {section.items.map((row, rowIdx) => (
                   <div key={rowIdx} className="grid grid-cols-3 gap-4 mb-2">
@@ -135,11 +135,11 @@ export default function ProductRange() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          <div className="bg-white border border-gray-200 rounded-lg p-8">
-            <h3 className="text-lg font-bold text-center mb-6">{titaniumAlloys.title}</h3>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-6">
+          <div className="bg-white border border-gray-200 rounded-lg p-4 md:p-6 lg:p-8">
+            <h3 className="text-base md:text-lg font-bold text-center mb-4 md:mb-6">{titaniumAlloys.title}</h3>
             {titaniumAlloys.items.map((row, rowIdx) => (
-              <div key={rowIdx} className="grid grid-cols-2 gap-4 mb-2">
+              <div key={rowIdx} className="grid grid-cols-1 sm:grid-cols-2 gap-2 md:gap-4 mb-2">
                 {row.map((item, itemIdx) => (
                   item && (
                     <div key={itemIdx} className="text-sm text-gray-700 flex items-center gap-1 cursor-pointer hover:text-[#1e3a8a] transition-colors">
@@ -151,7 +151,7 @@ export default function ProductRange() {
             ))}
           </div>
 
-          <div className="bg-white border border-gray-200 rounded-lg p-8">
+          <div className="bg-white border border-gray-200 rounded-lg p-4 md:p-6 lg:p-8">
             <h3 className="text-lg font-bold text-center mb-6">{hardToFind.title}</h3>
             {hardToFind.items.map((row, rowIdx) => (
               <div key={rowIdx} className="grid grid-cols-3 gap-4 mb-2">

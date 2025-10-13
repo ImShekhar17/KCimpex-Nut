@@ -35,16 +35,16 @@ export default function ThirdParty() {
   }, []);
 
   return (
-    <section className="py-16 bg-white border-t border-b border-gray-200">
+    <section className="py-10 md:py-12 lg:py-16 bg-white border-t border-b border-gray-200">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12">Third Party Inspection</h2>
+        <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 md:mb-12">Third Party Inspection</h2>
 
         <div className="overflow-hidden" ref={scrollRef}>
-          <div className="flex gap-12 items-center" style={{ width: 'max-content' }}>
+          <div className="flex gap-6 md:gap-10 lg:gap-12 items-center" style={{ width: 'max-content' }}>
             {[...logos, ...logos].map((logo, index) => (
               <div
                 key={index}
-                className="flex-shrink-0 w-40 h-20 flex items-center justify-center grayscale hover:grayscale-0 transition-all"
+                className="flex-shrink-0 w-28 md:w-36 lg:w-40 h-16 md:h-18 lg:h-20 flex items-center justify-center grayscale hover:grayscale-0 transition-all"
               >
                 <img
                   src={logo.url}

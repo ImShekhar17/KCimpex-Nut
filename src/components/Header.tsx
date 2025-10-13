@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, Search, ChevronRight, Info, X } from 'lucide-react';
+import { Phone, Mail, MapPin, Search, ChevronRight, Info, X, Menu } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
@@ -6,10 +6,11 @@ export default function Header() {
   const [isContactModalOpen, setIsContactModalOpen] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
     <>
-      <div className="bg-[#1e3a8a] text-white py-2 px-4">
+      <div className="bg-[#1e3a8a] text-white py-2 px-4 hidden lg:block">
         <div className="container mx-auto flex justify-between items-center text-sm">
           <div className="text-white font-medium">
             Leading Manufacturers of High-Nickel Alloy Fasteners
@@ -44,16 +45,16 @@ export default function Header() {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between py-3">
             <Link to="/" className="flex items-center gap-2">
-              <div className="w-12 h-12 border-2 border-gray-800 rounded-full flex items-center justify-center">
-                <span className="text-2xl font-bold">KC</span>
+              <div className="w-10 h-10 md:w-12 md:h-12 border-2 border-gray-800 rounded-full flex items-center justify-center">
+                <span className="text-xl md:text-2xl font-bold">KC</span>
               </div>
               <div>
-                <div className="font-bold text-xl">K C IMPEX</div>
+                <div className="font-bold text-lg md:text-xl">K C IMPEX</div>
                 <div className="text-xs text-gray-600">Bolting TRUST</div>
               </div>
             </Link>
 
-            <div className="flex items-center gap-8">
+            <div className="hidden xl:flex items-center gap-8">
               <Link to="/" className="text-gray-700 hover:text-[#1e3a8a] font-medium">Home</Link>
               <Link to="/about" className="text-gray-700 hover:text-[#1e3a8a] font-medium">About</Link>
 
@@ -279,7 +280,43 @@ export default function Header() {
                 <Search size={20} />
               </button>
             </div>
+
+            <div className="flex xl:hidden items-center gap-3">
+              <button
+                onClick={() => setIsSearchOpen(true)}
+                className="text-gray-700 hover:text-[#1e3a8a] transition-colors"
+              >
+                <Search size={20} />
+              </button>
+              <button
+                onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                className="text-gray-700 hover:text-[#1e3a8a] transition-colors"
+              >
+                <Menu size={24} />
+              </button>
+            </div>
           </div>
+
+          {isMobileMenuOpen && (
+            <div className="xl:hidden border-t border-gray-200 py-4">
+              <div className="flex flex-col space-y-3">
+                <Link to="/" className="text-gray-700 hover:text-[#1e3a8a] font-medium px-4 py-2" onClick={() => setIsMobileMenuOpen(false)}>Home</Link>
+                <Link to="/about" className="text-gray-700 hover:text-[#1e3a8a] font-medium px-4 py-2" onClick={() => setIsMobileMenuOpen(false)}>About</Link>
+                <Link to="/products" className="text-gray-700 hover:text-[#1e3a8a] font-medium px-4 py-2" onClick={() => setIsMobileMenuOpen(false)}>Products</Link>
+                <Link to="/services" className="text-gray-700 hover:text-[#1e3a8a] font-medium px-4 py-2" onClick={() => setIsMobileMenuOpen(false)}>Services</Link>
+                <Link to="/contact" className="text-gray-700 hover:text-[#1e3a8a] font-medium px-4 py-2" onClick={() => setIsMobileMenuOpen(false)}>Contact</Link>
+                <button className="bg-[#1e3a8a] text-white px-6 py-2 rounded font-medium hover:bg-[#1e4cb8] mx-4">
+                  Catalogue
+                </button>
+                <button
+                  onClick={() => { setIsContactModalOpen(true); setIsMobileMenuOpen(false); }}
+                  className="text-gray-700 hover:text-[#1e3a8a] font-medium px-4 py-2 text-left"
+                >
+                  Contact Info
+                </button>
+              </div>
+            </div>
+          )}
         </div>
       </nav>
 
@@ -290,7 +327,7 @@ export default function Header() {
             className="fixed inset-0 bg-black bg-opacity-50 z-50"
             onClick={() => setIsContactModalOpen(false)}
           />
-          <div className="fixed right-0 top-0 bottom-0 w-96 bg-white shadow-2xl z-50 overflow-y-auto">
+          <div className="fixed right-0 top-0 bottom-0 w-full sm:w-96 bg-white shadow-2xl z-50 overflow-y-auto">
             <div className="p-6">
               <div className="flex items-center justify-between mb-8">
                 <h2 className="text-2xl font-bold text-gray-800">Contact Information</h2>
@@ -412,7 +449,7 @@ export default function Header() {
                   </div>
                 )}
 
-                <div className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div className="mt-8 grid grid-cols-2 gap-4">
                   <div className="text-center p-4 bg-gradient-to-br from-blue-50 to-white rounded-lg hover:shadow-md transition-all cursor-pointer group">
                     <div className="w-12 h-12 bg-[#1e3a8a]/10 rounded-full flex items-center justify-center mx-auto mb-3 group-hover:bg-[#1e3a8a]/20 transition-colors">
                       <span className="text-2xl">🔩</span>

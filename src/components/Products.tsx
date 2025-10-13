@@ -37,21 +37,21 @@ const products = [
 
 export default function Products() {
   return (
-    <section className="py-20 bg-white">
+    <section className="py-12 md:py-16 lg:py-20 bg-white">
       <div className="container mx-auto px-4">
-        <div className="flex justify-between items-end mb-12">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-8 md:mb-12 gap-4">
           <div>
             <div className="text-[#6b7280] uppercase text-sm font-medium mb-2 tracking-wide">
               What We Do
             </div>
-            <h2 className="text-4xl font-bold">Our Products</h2>
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold">Our Products</h2>
           </div>
-          <button className="bg-gray-800 text-white px-6 py-3 rounded font-medium hover:bg-gray-900 transition-colors flex items-center gap-2">
-            All Products <ArrowRight size={18} />
+          <button className="bg-gray-800 text-white px-5 md:px-6 py-2 md:py-3 rounded font-medium hover:bg-gray-900 transition-colors flex items-center gap-2 text-sm md:text-base">
+            All Products <ArrowRight size={16} className="md:w-[18px] md:h-[18px]" />
           </button>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-6">
           {products.map((product, index) => (
             <div key={index} className="group cursor-pointer">
               <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition-shadow">

@@ -151,8 +151,8 @@ export default function Footer() {
             Manufacturer, Fabricator, Stockholder, Suppliers, Traders, Wholesaler, Dealer, Distributor, Importer, Exporter, Stockist of Alloy Steel Nuts & Bolts, Washers Nickel - Monel® - Inconel® - Incoloy® - Hastelloy® - Alloy 20 - Duplex are the registered trademarks of their respective owners.
           </p>
           <p className="text-center text-xs md:text-sm text-gray-400">
-            © 2025 K.C. Impex All Right Reserved, Design And Developed By{' '}
-            <a href="#" className="text-[#1e3a8a] hover:underline">Lalit Kumar</a>
+            © 2025 Horizon Metal & Alloys Right Reserved, Design And Developed By{' '}
+            <a href="#" className="text-[#1e3a8a] hover:underline">Value4Media</a>
           </p>
         </div>
       </div>

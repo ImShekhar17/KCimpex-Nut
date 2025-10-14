@@ -10,12 +10,12 @@ export default function About() {
               ABOUT OUR COMPANY
             </div>
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 md:mb-6">
-              Welcome to <span className="text-[#1e3a8a]">K.C. Impex</span>
+              Welcome to <span className="text-[#1e3a8a]">Horizon Metal & Alloys</span>
             </h2>
 
             <div className="space-y-3 md:space-y-4 text-sm md:text-base text-gray-700 leading-relaxed">
               <p>
-                We are proud to introduce M/s. K C IMPEX, a well-established leader in the field of High-Pressure
+                We are proud to introduce M/s. HORIZON METAL AND ALLOYS, a well-established leader in the field of High-Pressure
                 Exotic Metals and a wide range of Ferrous and Non-Ferrous Metals. With business operations
                 spanning both domestic and international markets, we have built a strong reputation for delivering
                 high-quality products and exceptional service.
@@ -35,9 +35,7 @@ export default function About() {
             </div>
 
             <div className="flex flex-wrap gap-4 md:gap-8 my-6 md:my-8">
-              <img src="https://images.pexels.com/photos/8369648/pexels-photo-8369648.jpeg?auto=compress&cs=tinysrgb&w=120&h=80" alt="Government of India" className="h-12 md:h-16 object-contain grayscale" />
-              <img src="https://images.pexels.com/photos/6476589/pexels-photo-6476589.jpeg?auto=compress&cs=tinysrgb&w=120&h=80" alt="ISO Certified" className="h-12 md:h-16 object-contain" />
-              <img src="https://images.pexels.com/photos/5650026/pexels-photo-5650026.jpeg?auto=compress&cs=tinysrgb&w=120&h=80" alt="Make in India" className="h-12 md:h-16 object-contain grayscale" />
+              <img src="/MSME.webp" alt="MSME Registered" className="h-12 md:h-16 object-contain" />
             </div>
 
             <button className="bg-[#4a6fa5] text-white px-5 md:px-6 py-2 md:py-3 rounded font-medium hover:bg-[#5a7fb5] transition-colors flex items-center gap-2 text-sm md:text-base">

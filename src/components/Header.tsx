@@ -26,15 +26,15 @@ export default function Header() {
             <div className="flex items-center gap-2">
               <Phone size={18} />
               <div>
-                <div className="font-semibold">+91 9664665685</div>
-                <div className="text-xs">admin@kcimpex.com</div>
+                <div className="font-semibold">+91 22 66151888</div>
+                <div className="text-xs">info@horizon-metal.com</div>
               </div>
             </div>
             <div className="flex items-center gap-2">
               <MapPin size={18} />
               <div>
-                <div className="font-semibold">11A/11C, 4th Lane Sitaphalwadi</div>
-                <div className="text-xs">Near Mazgaon mustafa bazaar, Mumbai 400010</div>
+                <div className="font-semibold">Rahimtulla Ladak Bldg.</div>
+                <div className="text-xs">46 A, Khetwadi 10th Lane, Mumbai 400 004.</div>
               </div>
             </div>
           </div>
@@ -45,12 +45,14 @@ export default function Header() {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between py-3">
             <Link to="/" className="flex items-center gap-2">
-              <div className="w-10 h-10 md:w-12 md:h-12 border-2 border-gray-800 rounded-full flex items-center justify-center">
-                <span className="text-xl md:text-2xl font-bold">KC</span>
-              </div>
+              <img
+                src="/HMA LOGO.jpg"
+                alt="HMA Logo"
+                className="w-16 h-16 md:w-20 md:h-20 object-contain"
+              />
               <div>
-                <div className="font-bold text-lg md:text-xl">K C IMPEX</div>
-                <div className="text-xs text-gray-600">Bolting TRUST</div>
+                <div className="font-bold text-lg md:text-xl">Horizon</div>
+                <div className="text-xs text-gray-600">METALS & ALLOYS</div>
               </div>
             </Link>
 
@@ -81,15 +83,15 @@ export default function Header() {
                       <Link to="/products/nuts" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
                         Nuts
                       </Link>
-                      <a href="#washers" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
+                      <Link to="/products/washers" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
                         Washers
-                      </a>
-                      <a href="#screws" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
+                      </Link>
+                      <Link to="/products/screws" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
                         Screws
-                      </a>
-                      <a href="#studs" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a]">
+                      </Link>
+                      <Link to="/products/studs" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a]">
                         Studs
-                      </a>
+                      </Link>
                     </div>
                   </div>
 
@@ -102,15 +104,15 @@ export default function Header() {
 
                     {/* Industrial Products Submenu */}
                     <div className="absolute left-full top-0 w-48 bg-white rounded shadow-xl opacity-0 invisible group-hover/sub:opacity-100 group-hover/sub:visible transition-all duration-200">
-                      <a href="#round-bar" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
+                      <Link to="/products/round-bar" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
                         Round Bar
-                      </a>
-                      <a href="#pipe" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
+                      </Link>
+                      <Link to="/products/pipe" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
                         Pipe
-                      </a>
-                      <a href="#pipe-fittings" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a]">
+                      </Link>
+                      <Link to="/products/pipe-fittings" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a]">
                         Pipe Fittings
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -118,9 +120,9 @@ export default function Header() {
 
               {/* Materials Dropdown */}
               <div className="relative group">
-                <button className="text-gray-700 hover:text-[#1e3a8a] font-medium flex items-center gap-1">
+                <Link to="/materials" className="text-gray-700 hover:text-[#1e3a8a] font-medium flex items-center gap-1">
                   Materials <span className="text-xs">▼</span>
-                </button>
+                </Link>
 
                 {/* Materials Dropdown */}
                 <div className="absolute left-0 top-full mt-2 w-56 bg-white rounded shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
@@ -133,24 +135,24 @@ export default function Header() {
 
                     {/* Nickel Alloys Submenu */}
                     <div className="absolute left-full top-0 w-48 bg-white rounded shadow-xl opacity-0 invisible group-hover/sub:opacity-100 group-hover/sub:visible transition-all duration-200">
-                      <a href="#inconel-600" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
+                      <Link to="/materials/inconel-600" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
                         INCONEL 600
-                      </a>
-                      <a href="#inconel-601" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
+                      </Link>
+                      <Link to="/materials/inconel-alloy-601" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
                         INCONEL 601
-                      </a>
-                      <a href="#inconel-x750" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
+                      </Link>
+                      <Link to="/materials/inconel-alloy-x-750" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
                         INCONEL X-750
-                      </a>
-                      <a href="#inconel-625" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
+                      </Link>
+                      <Link to="/materials/inconel-alloy-625" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
                         INCONEL 625
-                      </a>
-                      <a href="#inconel-690" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
+                      </Link>
+                      <Link to="/materials/inconel-alloy-690" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
                         INCONEL 690
-                      </a>
-                      <a href="#inconel-718" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a]">
+                      </Link>
+                      <Link to="/materials/inconel-alloy-718" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a]">
                         INCONEL 718
-                      </a>
+                      </Link>
                     </div>
                   </div>
 
@@ -230,15 +232,15 @@ export default function Header() {
 
                     {/* Dimensions Submenu */}
                     <div className="absolute left-full top-0 w-56 bg-white rounded shadow-xl opacity-0 invisible group-hover/sub:opacity-100 group-hover/sub:visible transition-all duration-200">
-                      <a href="#bolt-dimensions" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
+                      <Link to="/technical/bolt-dimensions" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
                         Bolt Dimensions
-                      </a>
-                      <a href="#nut-dimensions" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
+                      </Link>
+                      <Link to="/technical/nut-dimensions" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
                         Nut Dimensions
-                      </a>
-                      <a href="#washer-dimensions" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a]">
+                      </Link>
+                      <Link to="/technical/washer-dimensions" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a]">
                         Washer Dimensions
-                      </a>
+                      </Link>
                     </div>
                   </div>
 
@@ -254,9 +256,9 @@ export default function Header() {
                       <a href="#weight-calculator" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
                         Weight Calculator
                       </a>
-                      <a href="#weight-chart" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a]">
+                      <Link to="/technical/weight-chart" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a]">
                         Weight Chart
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -303,6 +305,7 @@ export default function Header() {
                 <Link to="/" className="text-gray-700 hover:text-[#1e3a8a] font-medium px-4 py-2" onClick={() => setIsMobileMenuOpen(false)}>Home</Link>
                 <Link to="/about" className="text-gray-700 hover:text-[#1e3a8a] font-medium px-4 py-2" onClick={() => setIsMobileMenuOpen(false)}>About</Link>
                 <Link to="/products" className="text-gray-700 hover:text-[#1e3a8a] font-medium px-4 py-2" onClick={() => setIsMobileMenuOpen(false)}>Products</Link>
+                <Link to="/materials" className="text-gray-700 hover:text-[#1e3a8a] font-medium px-4 py-2" onClick={() => setIsMobileMenuOpen(false)}>Materials</Link>
                 <Link to="/services" className="text-gray-700 hover:text-[#1e3a8a] font-medium px-4 py-2" onClick={() => setIsMobileMenuOpen(false)}>Services</Link>
                 <Link to="/contact" className="text-gray-700 hover:text-[#1e3a8a] font-medium px-4 py-2" onClick={() => setIsMobileMenuOpen(false)}>Contact</Link>
                 <button className="bg-[#1e3a8a] text-white px-6 py-2 rounded font-medium hover:bg-[#1e4cb8] mx-4">
@@ -357,11 +360,11 @@ export default function Header() {
                   <div>
                     <h3 className="font-bold text-gray-800 mb-2">Email Address</h3>
                     <p className="text-[#1e3a8a] hover:underline">
-                      <a href="mailto:admin@kcimpex.com">admin@kcimpex.com</a>
+                      <a href="mailto:info@horizon-metal.com">info@horizon-metal.com</a>
                     </p>
-                    <p className="text-[#1e3a8a] hover:underline">
+                    {/* <p className="text-[#1e3a8a] hover:underline">
                       <a href="mailto:sales@kcimpex.com">sales@kcimpex.com</a>
-                    </p>
+                    </p> */}
                   </div>
                 </div>
 
@@ -372,11 +375,11 @@ export default function Header() {
                   <div>
                     <h3 className="font-bold text-gray-800 mb-2">Phone Number</h3>
                     <p className="text-gray-600">
-                      <a href="tel:+919664665685" className="hover:text-[#1e3a8a]">+91 9664665685</a>
+                      <a href="tel:+912266151888" className="hover:text-[#1e3a8a]">+91 22 66151888</a>
                     </p>
-                    <p className="text-gray-600">
+                    {/* <p className="text-gray-600">
                       <a href="tel:+912231693855" className="hover:text-[#1e3a8a]">+91 2231693855</a>
-                    </p>
+                    </p> */}
                   </div>
                 </div>
 
@@ -387,9 +390,9 @@ export default function Header() {
                   <div>
                     <h3 className="font-bold text-gray-800 mb-2">Office Address</h3>
                     <p className="text-gray-600 leading-relaxed">
-                      11A/11C, 4th Lane Sitaphalwadi,<br />
-                      Near Mazgaon mustafa bazaar,<br />
-                      Mumbai 400010
+                      Address Rahimtulla Ladak Bldg.,<br />
+                      46 A, Khetwadi 10th Lane,<br />
+                      Mumbai 400004, Maharashtra, India.
                     </p>
                   </div>
                 </div>

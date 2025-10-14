@@ -1,30 +1,60 @@
+import { Link } from 'react-router-dom';
+
 export default function ProductRange() {
   const categories = [
     {
       title: 'INCONEL & INCOLOY®',
       items: [
-        ['INCONEL 600', 'INCONEL alloy 601', 'INCONEL alloy X-750'],
-        ['INCONEL alloy 625', 'INCONEL alloy 690', 'INCOLOY® alloy 800'],
-        ['INCONEL® alloy 718', 'INCOLOY alloy 825', '']
+        [
+          { name: 'INCONEL 600', link: '/materials/inconel-600' },
+          { name: 'INCONEL alloy 601', link: '/materials/inconel-alloy-601' },
+          { name: 'INCONEL alloy X-750', link: '/materials/inconel-alloy-x-750' }
+        ],
+        [
+          { name: 'INCONEL alloy 625', link: '/materials/inconel-alloy-625' },
+          { name: 'INCONEL alloy 690', link: '/materials/inconel-alloy-690' },
+          { name: 'INCOLOY® alloy 800', link: '/materials' }
+        ],
+        [
+          { name: 'INCONEL® alloy 718', link: '/materials/inconel-alloy-718' },
+          { name: 'INCOLOY alloy 825', link: '/materials' },
+          { name: '', link: '' }
+        ]
       ]
     },
     {
       title: 'NICKEL',
       items: [
-        ['NICKEL 200', 'NICKEL 201', '']
+        [
+          { name: 'NICKEL 200', link: '/materials' },
+          { name: 'NICKEL 201', link: '/materials' },
+          { name: '', link: '' }
+        ]
       ]
     },
     {
       title: 'HASTELLOY',
       items: [
-        ['HASTELLOY C-276', 'HASTELLOY C22', 'HASTELLOY B-2'],
-        ['HASTELLOY B-3', 'HASTELLOY X', '']
+        [
+          { name: 'HASTELLOY C-276', link: '/materials' },
+          { name: 'HASTELLOY C22', link: '/materials' },
+          { name: 'HASTELLOY B-2', link: '/materials' }
+        ],
+        [
+          { name: 'HASTELLOY B-3', link: '/materials' },
+          { name: 'HASTELLOY X', link: '/materials' },
+          { name: '', link: '' }
+        ]
       ]
     },
     {
       title: 'MONEL',
       items: [
-        ['MONEL alloy 400', 'MONEL alloy K-500', '']
+        [
+          { name: 'MONEL alloy 400', link: '/materials' },
+          { name: 'MONEL alloy K-500', link: '/materials' },
+          { name: '', link: '' }
+        ]
       ]
     }
   ];
@@ -35,22 +65,46 @@ export default function ProductRange() {
       {
         subtitle: 'Stainless Steel',
         items: [
-          ['SS 309', 'SS 310', 'SS 310s'],
-          ['SS 321', 'SS 347', 'SS 316Ti'],
-          ['SS 17-4-Ph', 'SS 15-5Ph', '']
+          [
+            { name: 'SS 309', link: '/materials' },
+            { name: 'SS 310', link: '/materials' },
+            { name: 'SS 310s', link: '/materials' }
+          ],
+          [
+            { name: 'SS 321', link: '/materials' },
+            { name: 'SS 347', link: '/materials' },
+            { name: 'SS 316Ti', link: '/materials' }
+          ],
+          [
+            { name: 'SS 17-4-Ph', link: '/materials' },
+            { name: 'SS 15-5Ph', link: '/materials' },
+            { name: '', link: '' }
+          ]
         ]
       },
       {
         subtitle: 'Super Stainless Steel',
         items: [
-          ['904L', 'Alloy-20', 'SMO 254'],
-          ['A-286', '253-MA', '']
+          [
+            { name: '904L', link: '/materials' },
+            { name: 'Alloy-20', link: '/materials' },
+            { name: 'SMO 254', link: '/materials' }
+          ],
+          [
+            { name: 'A-286', link: '/materials' },
+            { name: '253-MA', link: '/materials' },
+            { name: '', link: '' }
+          ]
         ]
       },
       {
         subtitle: 'Duplex & Super Duplex Stainless Steel',
         items: [
-          ['Duplex 2205', 'Super Duplex 2507', '']
+          [
+            { name: 'Duplex 2205', link: '/materials' },
+            { name: 'Super Duplex 2507', link: '/materials' },
+            { name: '', link: '' }
+          ]
         ]
       }
     ]
@@ -59,20 +113,52 @@ export default function ProductRange() {
   const titaniumAlloys = {
     title: 'TITANIUM ALLOYS',
     items: [
-      ['CP Titanium Grade 1', 'Titanium Grade 5 / 6AL4V', ''],
-      ['Titanium Grade 11', 'CP Titanium Grade 2', ''],
-      ['CP Titanium Grade 4', 'Titanium Grade 6 / 5Al 2.55n', ''],
-      ['Titanium Grade 12', 'CP Titanium Grade 7', '']
+      [
+        { name: 'CP Titanium Grade 1', link: '/materials' },
+        { name: 'Titanium Grade 5 / 6AL4V', link: '/materials' },
+        { name: '', link: '' }
+      ],
+      [
+        { name: 'Titanium Grade 11', link: '/materials' },
+        { name: 'CP Titanium Grade 2', link: '/materials' },
+        { name: '', link: '' }
+      ],
+      [
+        { name: 'CP Titanium Grade 4', link: '/materials' },
+        { name: 'Titanium Grade 6 / 5Al 2.55n', link: '/materials' },
+        { name: '', link: '' }
+      ],
+      [
+        { name: 'Titanium Grade 12', link: '/materials' },
+        { name: 'CP Titanium Grade 7', link: '/materials' },
+        { name: '', link: '' }
+      ]
     ]
   };
 
   const hardToFind = {
     title: 'HARD TO FIND ALLOYS',
     items: [
-      ['Tantalum', 'Niobium', 'Tungsten'],
-      ['Gallium', 'Molybdenum', 'Rhenium'],
-      ['Hafnium', 'Indium', 'Beryllium Copper'],
-      ['Vanadium', 'Germanium', 'Hardox']
+      [
+        { name: 'Tantalum', link: '/materials' },
+        { name: 'Niobium', link: '/materials' },
+        { name: 'Tungsten', link: '/materials' }
+      ],
+      [
+        { name: 'Gallium', link: '/materials' },
+        { name: 'Molybdenum', link: '/materials' },
+        { name: 'Rhenium', link: '/materials' }
+      ],
+      [
+        { name: 'Hafnium', link: '/materials' },
+        { name: 'Indium', link: '/materials' },
+        { name: 'Beryllium Copper', link: '/materials' }
+      ],
+      [
+        { name: 'Vanadium', link: '/materials' },
+        { name: 'Germanium', link: '/materials' },
+        { name: 'Hardox', link: '/materials' }
+      ]
     ]
   };
 
@@ -97,10 +183,14 @@ export default function ProductRange() {
                   {category.items.map((row, rowIdx) => (
                     <div key={rowIdx} className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 md:gap-4 mb-2">
                       {row.map((item, itemIdx) => (
-                        item && (
-                          <div key={itemIdx} className="text-xs md:text-sm text-gray-700 flex items-center gap-1 cursor-pointer hover:text-[#1e3a8a] transition-colors">
-                            <span className="text-[#1e3a8a]">⊙</span> {item}
-                          </div>
+                        item.name && (
+                          <Link
+                            key={itemIdx}
+                            to={item.link}
+                            className="text-xs md:text-sm text-gray-700 flex items-center gap-1 cursor-pointer hover:text-[#1e3a8a] transition-colors"
+                          >
+                            <span className="text-[#1e3a8a]">⊙</span> {item.name}
+                          </Link>
                         )
                       ))}
                     </div>
@@ -122,10 +212,14 @@ export default function ProductRange() {
                 {section.items.map((row, rowIdx) => (
                   <div key={rowIdx} className="grid grid-cols-3 gap-4 mb-2">
                     {row.map((item, itemIdx) => (
-                      item && (
-                        <div key={itemIdx} className="text-sm text-gray-700 flex items-center gap-1 cursor-pointer hover:text-[#1e3a8a] transition-colors">
-                          <span className="text-[#1e3a8a]">⊙</span> {item}
-                        </div>
+                      item.name && (
+                        <Link
+                          key={itemIdx}
+                          to={item.link}
+                          className="text-sm text-gray-700 flex items-center gap-1 cursor-pointer hover:text-[#1e3a8a] transition-colors"
+                        >
+                          <span className="text-[#1e3a8a]">⊙</span> {item.name}
+                        </Link>
                       )
                     ))}
                   </div>
@@ -141,10 +235,14 @@ export default function ProductRange() {
             {titaniumAlloys.items.map((row, rowIdx) => (
               <div key={rowIdx} className="grid grid-cols-1 sm:grid-cols-2 gap-2 md:gap-4 mb-2">
                 {row.map((item, itemIdx) => (
-                  item && (
-                    <div key={itemIdx} className="text-sm text-gray-700 flex items-center gap-1 cursor-pointer hover:text-[#1e3a8a] transition-colors">
-                      <span className="text-[#1e3a8a]">⊙</span> {item}
-                    </div>
+                  item.name && (
+                    <Link
+                      key={itemIdx}
+                      to={item.link}
+                      className="text-sm text-gray-700 flex items-center gap-1 cursor-pointer hover:text-[#1e3a8a] transition-colors"
+                    >
+                      <span className="text-[#1e3a8a]">⊙</span> {item.name}
+                    </Link>
                   )
                 ))}
               </div>
@@ -156,9 +254,13 @@ export default function ProductRange() {
             {hardToFind.items.map((row, rowIdx) => (
               <div key={rowIdx} className="grid grid-cols-3 gap-4 mb-2">
                 {row.map((item, itemIdx) => (
-                  <div key={itemIdx} className="text-sm text-gray-700 flex items-center gap-1 cursor-pointer hover:text-[#1e3a8a] transition-colors">
-                    <span className="text-[#1e3a8a]">⊙</span> {item}
-                  </div>
+                  <Link
+                    key={itemIdx}
+                    to={item.link}
+                    className="text-sm text-gray-700 flex items-center gap-1 cursor-pointer hover:text-[#1e3a8a] transition-colors"
+                  >
+                    <span className="text-[#1e3a8a]">⊙</span> {item.name}
+                  </Link>
                 ))}
               </div>
             ))}

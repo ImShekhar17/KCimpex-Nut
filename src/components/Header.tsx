@@ -165,24 +165,24 @@ export default function Header() {
 
                     {/* Stainless Steel Submenu */}
                     <div className="absolute left-full top-0 w-48 bg-white rounded shadow-xl opacity-0 invisible group-hover/sub:opacity-100 group-hover/sub:visible transition-all duration-200">
-                      <a href="#ss-309" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
+                      <Link to="/materials/ss-309" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
                         SS 309
-                      </a>
-                      <a href="#ss-310" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
+                      </Link>
+                      <Link to="/materials/ss-310" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
                         SS 310
-                      </a>
-                      <a href="#ss-310s" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
+                      </Link>
+                      <Link to="/materials/ss-310s" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
                         SS 310s
-                      </a>
-                      <a href="#ss-321" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
+                      </Link>
+                      <Link to="/materials/ss-321" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
                         SS 321
-                      </a>
-                      <a href="#ss-347" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
+                      </Link>
+                      <Link to="/materials/ss-347" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
                         SS 347
-                      </a>
-                      <a href="#ss-316ti" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a]">
+                      </Link>
+                      <Link to="/materials/ss-316ti" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a]">
                         SS 316Ti
-                      </a>
+                      </Link>
                     </div>
                   </div>
 
@@ -195,21 +195,21 @@ export default function Header() {
 
                     {/* Special Alloys Submenu */}
                     <div className="absolute left-full top-0 w-56 bg-white rounded shadow-xl opacity-0 invisible group-hover/sub:opacity-100 group-hover/sub:visible transition-all duration-200">
-                      <a href="#hastelloy-c276" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
+                      <Link to="/materials/hastelloy-c-276" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
                         HASTELLOY C-276
-                      </a>
-                      <a href="#hastelloy-c22" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
+                      </Link>
+                      <Link to="/materials/hastelloy-c22" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
                         HASTELLOY C22
-                      </a>
-                      <a href="#hastelloy-b2" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
+                      </Link>
+                      <Link to="/materials/hastelloy-b-2" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
                         HASTELLOY B-2
-                      </a>
-                      <a href="#monel-400" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
+                      </Link>
+                      <Link to="/materials/monel-alloy-400" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
                         MONEL 400
-                      </a>
-                      <a href="#monel-k500" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a]">
+                      </Link>
+                      <Link to="/materials/monel-alloy-k-500" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a]">
                         MONEL K-500
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

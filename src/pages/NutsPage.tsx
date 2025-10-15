@@ -26,61 +26,61 @@ export default function NutsPage() {
   const nutTypes = [
     {
       name: 'Hex Nuts',
-      image: 'https://images.pexels.com/photos/162553/nuts-bolts-metal-fixing-162553.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/HexNut.webp'
     },
     {
       name: 'Heavy Hex Nut',
-      image: 'https://images.pexels.com/photos/209274/pexels-photo-209274.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/HeavySquareNut.webp'
     },
     {
       name: 'Square Nut',
-      image: 'https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/SquareNut.webp'
     },
     {
       name: 'Dome Nut',
-      image: 'https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/DomeNut.webp'
     },
     {
       name: 'Nylock Nut',
-      image: 'https://images.pexels.com/photos/209235/pexels-photo-209235.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/NylockNut.webp'
     },
     {
       name: 'Wing Nut',
-      image: 'https://images.pexels.com/photos/1409216/pexels-photo-1409216.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/WingNut.webp'
     },
     {
       name: 'Lock Nut',
-      image: 'https://images.pexels.com/photos/162553/nuts-bolts-metal-fixing-162553.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/LockNut.webp'
     },
     {
       name: 'Cage Nut',
-      image: 'https://images.pexels.com/photos/209274/pexels-photo-209274.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/CageNut.webp'
     },
     {
       name: 'Coupling Nut',
-      image: 'https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/CouplingNut.webp'
     },
     {
       name: 'Cap Nut',
-      image: 'https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/CapNut.webp'
     },
     {
       name: 'Cross Hole Nut',
-      image: 'https://images.pexels.com/photos/209235/pexels-photo-209235.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/CrossHoleNut.webp'
     },
     {
       name: 'Castle Nut',
-      image: 'https://images.pexels.com/photos/1409216/pexels-photo-1409216.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/CastleNut.webp'
     }
   ];
 
   const [selectedImage, setSelectedImage] = useState(0);
 
   const productImages = [
-    'https://images.pexels.com/photos/162553/nuts-bolts-metal-fixing-162553.jpeg?auto=compress&cs=tinysrgb&w=600',
-    'https://images.pexels.com/photos/209274/pexels-photo-209274.jpeg?auto=compress&cs=tinysrgb&w=600',
-    'https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=600',
-    'https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=600'
+    '/Nut1.webp',
+    '/Nut2.webp',
+    '/Nut3.webp',
+    '/Nut4.webp'
   ];
 
   const grades = [
@@ -208,13 +208,13 @@ export default function NutsPage() {
   const applicationImages = [
     'https://images.pexels.com/photos/3862628/pexels-photo-3862628.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=400',
-    'https://images.pexels.com/photos/1059119/pexels-photo-1059119.jpeg?auto=compress&cs=tinysrgb&w=400',
+    'https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/257700/pexels-photo-257700.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/2768961/pexels-photo-2768961.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=400',
-    'https://images.pexels.com/photos/163726/aircraft-holiday-sun-tourism-163726.jpeg?auto=compress&cs=tinysrgb&w=400',
+    'https://images.pexels.com/photos/3862628/pexels-photo-3862628.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/585419/pexels-photo-585419.jpeg?auto=compress&cs=tinysrgb&w=400'
   ];
 
@@ -225,7 +225,7 @@ export default function NutsPage() {
       <div
         className="relative bg-cover bg-center py-32"
         style={{
-          backgroundImage: 'url(https://images.pexels.com/photos/162553/nuts-bolts-metal-fixing-162553.jpeg?auto=compress&cs=tinysrgb&w=1260)',
+          backgroundImage: 'url(https://images.pexels.com/photos/209235/pexels-photo-209235.jpeg?auto=compress&cs=tinysrgb&w=1260)',
         }}
       >
         <div className="absolute inset-0 bg-[#1e3a8a] bg-opacity-80"></div>
@@ -245,11 +245,11 @@ export default function NutsPage() {
             <div className="lg:col-span-3">
               <div className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-800 mb-6">
-                  Welcome to K.C. Impex - Your Premier Nut Manufacturer and Supplier in India
+                  Welcome to Horizon Metal & Alloys - Your Premier Nut Manufacturer and Supplier in India
                 </h2>
                 <div className="space-y-4">
                   <p className="text-gray-700 leading-relaxed">
-                    <span className="text-[#2563eb] font-semibold">K.C. Impex</span>, a premier Nut and Bolt manufacturer in India, is dedicated to delivering top-notch products at competitive prices. Specializing in a wide range of nuts, including <span className="text-[#2563eb]">Hex, Heavy Hex, Square, Dome, Nylock, Wing, Lock, Closed, Coupler, Cap, Cross Hole,</span> and <span className="text-[#2563eb]">Slotted Round Nuts</span>, we ensure quality across dimensions, grades, and types.
+                    <span className="text-[#2563eb] font-semibold">Horizon Metal & Alloys</span>, a premier Nut and Bolt manufacturer in India, is dedicated to delivering top-notch products at competitive prices. Specializing in a wide range of nuts, including <span className="text-[#2563eb]">Hex, Heavy Hex, Square, Dome, Nylock, Wing, Lock, Closed, Coupler, Cap, Cross Hole,</span> and <span className="text-[#2563eb]">Slotted Round Nuts</span>, we ensure quality across dimensions, grades, and types.
                   </p>
                   <p className="text-gray-700 leading-relaxed">
                     Our commitment to excellence extends to custom orders, where our expertise shines. As one of the most reliable suppliers, we cater to diverse requirements, ensuring client satisfaction with every order. Alongside our nut production, we also excel as leading <span className="font-semibold">Bolt Manufacturers in India</span>, offering a comprehensive range of high-quality bolts to meet various industrial needs.
@@ -554,10 +554,10 @@ export default function NutsPage() {
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/70 to-black/80"></div>
         <div className="container mx-auto px-4 relative z-10 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Contact K.C. Impex Today
+            Contact Horizon Metal & Alloys Today
           </h2>
           <p className="text-white text-lg md:text-xl max-w-4xl mx-auto mb-8 leading-relaxed">
-            Choose K.C. Impex for your bolt needs and experience the difference quality, expertise, and commitment can make in your projects. Contact us today to discuss your requirements, request a quote, or place an order. Join countless satisfied customers who rely on K.C. Impex for premium bolts and exceptional service.
+            Choose Horizon Metal & Alloys for your bolt needs and experience the difference quality, expertise, and commitment can make in your projects. Contact us today to discuss your requirements, request a quote, or place an order. Join countless satisfied customers who rely on Horizon Metal & Alloys for premium bolts and exceptional service.
           </p>
           <Link
             to="/contact"

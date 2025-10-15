@@ -23,6 +23,19 @@ import BoltDimensionsPage from './pages/BoltDimensionsPage';
 import NutDimensionsPage from './pages/NutDimensionsPage';
 import WasherDimensionsPage from './pages/WasherDimensionsPage';
 import WeightChartPage from './pages/WeightChartPage';
+import SS309Page from './pages/SS309Page';
+import SS310Page from './pages/SS310Page';
+import SS310sPage from './pages/SS310sPage';
+import SS321Page from './pages/SS321Page';
+import SS347Page from './pages/SS347Page';
+import SS316TiPage from './pages/SS316TiPage';
+import SS17_4PhPage from './pages/SS17_4PhPage';
+import SS15_5PhPage from './pages/SS15_5PhPage';
+import HasteloyC276Page from './pages/HasteloyC276Page';
+import HasteloyC22Page from './pages/HasteloyC22Page';
+import HasteloyB2Page from './pages/HasteloyB2Page';
+import Monel400Page from './pages/Monel400Page';
+import MonelK500Page from './pages/MonelK500Page';
 
 
 function App() {
@@ -47,6 +60,19 @@ function App() {
         <Route path="/materials/inconel-alloy-625" element={<Inconel625Page />} />
         <Route path="/materials/inconel-alloy-690" element={<Inconel690Page />} />
         <Route path="/materials/inconel-alloy-718" element={<Inconel718Page />} />
+        <Route path="/materials/ss-309" element={<SS309Page />} />
+        <Route path="/materials/ss-310" element={<SS310Page />} />
+        <Route path="/materials/ss-310s" element={<SS310sPage />} />
+        <Route path="/materials/ss-321" element={<SS321Page />} />
+        <Route path="/materials/ss-347" element={<SS347Page />} />
+        <Route path="/materials/ss-316ti" element={<SS316TiPage />} />
+        <Route path="/materials/ss-17-4-ph" element={<SS17_4PhPage />} />
+        <Route path="/materials/ss-15-5ph" element={<SS15_5PhPage />} />
+        <Route path="/materials/hastelloy-c-276" element={<HasteloyC276Page />} />
+        <Route path="/materials/hastelloy-c22" element={<HasteloyC22Page />} />
+        <Route path="/materials/hastelloy-b-2" element={<HasteloyB2Page />} />
+        <Route path="/materials/monel-alloy-400" element={<Monel400Page />} />
+        <Route path="/materials/monel-alloy-k-500" element={<MonelK500Page />} />
         <Route path="/technical/bolt-dimensions" element={<BoltDimensionsPage />} />
         <Route path="/technical/nut-dimensions" element={<NutDimensionsPage />} />
         <Route path="/technical/washer-dimensions" element={<WasherDimensionsPage />} />

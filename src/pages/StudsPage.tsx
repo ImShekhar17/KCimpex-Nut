@@ -27,43 +27,31 @@ export default function StudsPage() {
   const studTypes = [
     {
       name: 'Fully Threaded Studs',
-      image: 'https://images.pexels.com/photos/209235/pexels-photo-209235.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/FullyT.webp'
     },
     {
       name: 'Tap End Stud',
-      image: 'https://images.pexels.com/photos/162553/nuts-bolts-metal-fixing-162553.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/TapE.webp'
     },
     {
       name: 'Double End Stud',
-      image: 'https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/DoubleE.webp'
     },
     {
       name: 'Double End Stud with Reduced Shank',
-      image: 'https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/DoubleES.webp'
     },
     {
       name: 'Welding Studs',
-      image: 'https://images.pexels.com/photos/209274/pexels-photo-209274.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/Welding.webp'
     },
-    {
-      name: 'Anchor Studs',
-      image: 'https://images.pexels.com/photos/1409216/pexels-photo-1409216.jpeg?auto=compress&cs=tinysrgb&w=600'
-    },
-    {
-      name: 'Flange Studs',
-      image: 'https://images.pexels.com/photos/162553/nuts-bolts-metal-fixing-162553.jpeg?auto=compress&cs=tinysrgb&w=600'
-    },
-    {
-      name: 'Threaded Rods',
-      image: 'https://images.pexels.com/photos/209274/pexels-photo-209274.jpeg?auto=compress&cs=tinysrgb&w=600'
-    }
   ];
 
   const productImages = [
-    'https://images.pexels.com/photos/209235/pexels-photo-209235.jpeg?auto=compress&cs=tinysrgb&w=600',
-    'https://images.pexels.com/photos/162553/nuts-bolts-metal-fixing-162553.jpeg?auto=compress&cs=tinysrgb&w=600',
-    'https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=600',
-    'https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=600'
+    '/STUD1.webp',
+    '/STUD2.webp',
+    '/STUD3.webp',
+    '/STUD4.webp'
   ];
 
   const grades = [
@@ -191,13 +179,13 @@ export default function StudsPage() {
   const applicationImages = [
     'https://images.pexels.com/photos/3862628/pexels-photo-3862628.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=400',
-    'https://images.pexels.com/photos/1059119/pexels-photo-1059119.jpeg?auto=compress&cs=tinysrgb&w=400',
+    'https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/257700/pexels-photo-257700.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/2768961/pexels-photo-2768961.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=400',
-    'https://images.pexels.com/photos/163726/aircraft-holiday-sun-tourism-163726.jpeg?auto=compress&cs=tinysrgb&w=400',
+    'https://images.pexels.com/photos/3862628/pexels-photo-3862628.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/585419/pexels-photo-585419.jpeg?auto=compress&cs=tinysrgb&w=400'
   ];
 
@@ -208,7 +196,7 @@ export default function StudsPage() {
       <div
         className="relative bg-cover bg-center py-32"
         style={{
-          backgroundImage: 'url(https://images.pexels.com/photos/162553/nuts-bolts-metal-fixing-162553.jpeg?auto=compress&cs=tinysrgb&w=1260)',
+                   backgroundImage: 'url(https://images.pexels.com/photos/209235/pexels-photo-209235.jpeg?auto=compress&cs=tinysrgb&w=1260)',
         }}
       >
         <div className="absolute inset-0 bg-[#1e3a8a] bg-opacity-80"></div>
@@ -228,11 +216,11 @@ export default function StudsPage() {
             <div className="lg:col-span-3">
               <div className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-800 mb-6">
-                  Welcome to K.C. Impex - Your Premier Stud Manufacturer and Supplier in India
+                  Welcome to Horizon Metal & Alloys - Your Premier Stud Manufacturer and Supplier in India
                 </h2>
                 <div className="space-y-4">
                   <p className="text-gray-700 leading-relaxed">
-                    <span className="text-[#2563eb] font-semibold">K.C. Impex</span> is a leading name in Stud manufacturing and supply across India, renowned for our unwavering commitment to delivering superior quality products at competitive prices. Our extensive range of Studs includes <span className="text-[#2563eb]">Flange Stud Studs, Tap End Stud Studs, Stud Studs With Reduced Shank,</span> and <span className="text-[#2563eb]">Double End Stud Studs</span>, catering to diverse industry needs with precision and reliability.
+                    <span className="text-[#2563eb] font-semibold">Horizon Metal & Alloys</span> is a leading name in Stud manufacturing and supply across India, renowned for our unwavering commitment to delivering superior quality products at competitive prices. Our extensive range of Studs includes <span className="text-[#2563eb]">Flange Stud Studs, Tap End Stud Studs, Stud Studs With Reduced Shank,</span> and <span className="text-[#2563eb]">Double End Stud Studs</span>, catering to diverse industry needs with precision and reliability.
                   </p>
                   <p className="text-gray-700 leading-relaxed">
                     We take pride in offering Studs in various dimensions, grades, and types, ensuring that our customers find the perfect fastening solutions for their applications. From <span className="font-semibold">Full Threaded Stud Studs</span> to <span className="font-semibold">Zinc Plated Stud Studs</span>, and from <span className="font-semibold">Hex Studs</span> to <span className="font-semibold">Allen Studs</span>, our comprehensive product lineup reflects our dedication to meeting the dynamic demands of modern industries.
@@ -537,10 +525,10 @@ export default function StudsPage() {
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/70 to-black/80"></div>
         <div className="container mx-auto px-4 relative z-10 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Contact K.C. Impex Today
+            Contact Horizon Metal & Alloys Today
           </h2>
           <p className="text-white text-lg md:text-xl max-w-4xl mx-auto mb-8 leading-relaxed">
-            Choose K.C. Impex for your stud needs and experience the difference quality, expertise, and commitment can make in your projects. Contact us today to discuss your requirements, request a quote, or place an order. Join countless satisfied customers who rely on K.C. Impex for premium studs and exceptional service.
+            Choose Horizon Metal & Alloys for your stud needs and experience the difference quality, expertise, and commitment can make in your projects. Contact us today to discuss your requirements, request a quote, or place an order. Join countless satisfied customers who rely on Horizon Metal & Alloys for premium studs and exceptional service.
           </p>
           <Link
             to="/contact"

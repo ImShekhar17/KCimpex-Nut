@@ -66,8 +66,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="text-lg md:text-xl font-semibold text-gray-800 mb-1 md:mb-2">Phone</h3>
-                  <p className="text-sm md:text-base text-gray-700 font-medium">+91 9664665685</p>
-                  <p className="text-sm md:text-base text-gray-700 font-medium">+91 2231693855</p>
+                  <p className="text-sm md:text-base text-gray-700 font-medium">+91 22 66151888</p>
+                  {/* <p className="text-sm md:text-base text-gray-700 font-medium">+91 2231693855</p> */}
                 </div>
               </div>
 
@@ -77,8 +77,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="text-lg md:text-xl font-semibold text-gray-800 mb-1 md:mb-2">Email</h3>
-                  <p className="text-sm md:text-base text-gray-700 font-medium">admin@kcimpex.com</p>
-                  <p className="text-sm md:text-base text-gray-700 font-medium">sales@kcimpex.com</p>
+                  <p className="text-sm md:text-base text-gray-700 font-medium">info@horizon-metal.com</p>
                 </div>
               </div>
 
@@ -89,7 +88,7 @@ export default function Contact() {
                 <div>
                   <h3 className="text-lg md:text-xl font-semibold text-gray-800 mb-1 md:mb-2">Address</h3>
                   <p className="text-sm md:text-base text-gray-700 font-medium">
-                    11A/11C, 4th Lane Sitaphalwadi,Near Mazgaon mustafa bazaar,Mumbai 400010
+                    Rahimtulla Ladak Bldg., 46 A, Khetwadi 10th Lane, Mumbai 400 004.aar,Mumbai-400010
                   </p>
                 </div>
               </div>

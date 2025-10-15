@@ -27,67 +27,67 @@ export default function BoltsPage() {
   const boltTypes = [
     {
       name: 'Hex Bolt',
-      image: 'https://images.pexels.com/photos/209235/pexels-photo-209235.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/HexBoltImg.webp'
     },
     {
       name: 'Stud Bolt',
-      image: 'https://images.pexels.com/photos/162553/nuts-bolts-metal-fixing-162553.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/StudBolt.webp'
     },
     {
       name: 'Allen Bolt',
-      image: 'https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/AllenBolt.webp'
     },
     {
       name: 'Eye Bolt',
-      image: 'https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/EyeBolt.webp'
     },
     {
       name: 'Anchor Bolt',
-      image: 'https://images.pexels.com/photos/209274/pexels-photo-209274.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/AnchorBolt.webp'
     },
     {
       name: 'Square Head Bolt',
-      image: 'https://images.pexels.com/photos/1409216/pexels-photo-1409216.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/SquareHead.webp'
     },
     {
       name: 'Hex Flange Bolt',
-      image: 'https://images.pexels.com/photos/162553/nuts-bolts-metal-fixing-162553.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/HexFlangeBolt.webp'
     },
     {
       name: 'Carriage Bolt',
-      image: 'https://images.pexels.com/photos/209274/pexels-photo-209274.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/CarrBolt.webp'
     },
     {
       name: 'Coil Bolt',
-      image: 'https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/CoilBolt.webp'
     },
     {
       name: 'J Bolt',
-      image: 'https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/Jbolt.webp'
     },
     {
       name: 'L Bolt',
-      image: 'https://images.pexels.com/photos/209235/pexels-photo-209235.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/LBolt.webp'
     },
     {
       name: 'T Bolt',
-      image: 'https://images.pexels.com/photos/1409216/pexels-photo-1409216.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/TBolt.webp'
     },
     {
       name: 'U Bolt',
-      image: 'https://images.pexels.com/photos/162553/nuts-bolts-metal-fixing-162553.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/UBolt.webp'
     },
     {
       name: 'Elevator Bucket Bolt',
-      image: 'https://images.pexels.com/photos/209274/pexels-photo-209274.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/ElevatorBolt.webp'
     }
   ];
 
   const productImages = [
-    'https://images.pexels.com/photos/209235/pexels-photo-209235.jpeg?auto=compress&cs=tinysrgb&w=600',
-    'https://images.pexels.com/photos/162553/nuts-bolts-metal-fixing-162553.jpeg?auto=compress&cs=tinysrgb&w=600',
-    'https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=600',
-    'https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=600'
+    '/Bolt1.webp',
+    '/Bolt2.webp',
+    '/Bolt3.webp',
+    '/Bolt4.webp'
   ];
 
   const grades = [
@@ -215,13 +215,13 @@ export default function BoltsPage() {
   const applicationImages = [
     'https://images.pexels.com/photos/3862628/pexels-photo-3862628.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=400',
-    'https://images.pexels.com/photos/1059119/pexels-photo-1059119.jpeg?auto=compress&cs=tinysrgb&w=400',
+    'https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/257700/pexels-photo-257700.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/2768961/pexels-photo-2768961.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=400',
-    'https://images.pexels.com/photos/163726/aircraft-holiday-sun-tourism-163726.jpeg?auto=compress&cs=tinysrgb&w=400',
+    'https://images.pexels.com/photos/3862628/pexels-photo-3862628.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/585419/pexels-photo-585419.jpeg?auto=compress&cs=tinysrgb&w=400'
   ];
 
@@ -230,15 +230,15 @@ export default function BoltsPage() {
       <Header />
 
       <div
-        className="relative bg-cover bg-center py-32"
+        className="relative bg-cover bg-center py-16 md:py-24 lg:py-32"
         style={{
           backgroundImage: 'url(https://images.pexels.com/photos/209235/pexels-photo-209235.jpeg?auto=compress&cs=tinysrgb&w=1260)',
         }}
       >
         <div className="absolute inset-0 bg-[#1e3a8a] bg-opacity-80"></div>
         <div className="container mx-auto px-4 relative z-10">
-          <h1 className="text-5xl font-bold text-white mb-4">BOLT</h1>
-          <div className="flex items-center gap-2 text-white text-lg">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-3 md:mb-4">BOLT</h1>
+          <div className="flex items-center gap-2 text-white text-sm md:text-base lg:text-lg">
             <Link to="/" className="hover:underline">Home</Link>
             <span>→</span>
             <span className="font-semibold">Bolts</span>
@@ -247,18 +247,18 @@ export default function BoltsPage() {
       </div>
 
       <div className="flex-grow bg-white">
-        <div className="container mx-auto px-4 py-16">
+        <div className="container mx-auto px-4 py-8 md:py-12 lg:py-16">
           <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
             <div className="lg:col-span-3">
               <div className="mb-12">
-                <h2 className="text-3xl font-bold text-gray-800 mb-6">
-                  Welcome to K.C. Impex - Your Premier Bolt Manufacturer and Supplier in India
+                <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4 md:mb-6">
+                  Welcome to Horizon Metal & Alloys - Your Premier Bolt Manufacturer and Supplier in India
                 </h2>
                 <div className="space-y-4">
-                  <p className="text-gray-700 leading-relaxed">
-                    <span className="text-[#2563eb] font-semibold">K.C. Impex</span> is a leading name in bolt manufacturing and supply across India, renowned for our unwavering commitment to delivering superior quality products at competitive prices. Our extensive range of bolts includes <span className="text-[#2563eb]">Flange Stud Bolts, Tap End Stud Bolts, Stud Bolts With Reduced Shank,</span> and <span className="text-[#2563eb]">Double End Stud Bolts</span>, catering to diverse industry needs with precision and reliability.
+                  <p className="text-sm md:text-base text-gray-700 leading-relaxed">
+                    <span className="text-[#2563eb] font-semibold">Horizon Metal & Alloys</span> is a leading name in bolt manufacturing and supply across India, renowned for our unwavering commitment to delivering superior quality products at competitive prices. Our extensive range of bolts includes <span className="text-[#2563eb]">Flange Stud Bolts, Tap End Stud Bolts, Stud Bolts With Reduced Shank,</span> and <span className="text-[#2563eb]">Double End Stud Bolts</span>, catering to diverse industry needs with precision and reliability.
                   </p>
-                  <p className="text-gray-700 leading-relaxed">
+                  <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                     We take pride in offering bolts in various dimensions, grades, and types, ensuring that our customers find the perfect fastening solutions for their applications. From <span className="font-semibold">Full Threaded Stud Bolts</span> to <span className="font-semibold">Zinc Plated Stud Bolts</span>, and from <span className="font-semibold">Hex Bolts</span> to <span className="font-semibold">Allen Bolts</span>, our comprehensive product lineup reflects our dedication to meeting the dynamic demands of modern industries.
                   </p>
                 </div>
@@ -266,36 +266,36 @@ export default function BoltsPage() {
 
               <div className="mb-12">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
-                  <div className="bg-white border border-gray-300 rounded-lg overflow-hidden shadow-sm">
+                  <div className="bg-white border border-gray-300 rounded-lg overflow-hidden shadow-sm overflow-x-auto">
                     <table className="w-full">
                       <tbody className="divide-y divide-gray-300">
                         <tr>
-                          <td className="px-4 py-3 bg-gray-50 font-semibold text-gray-800 border-r border-gray-300">DIAMETER</td>
-                          <td className="px-4 py-3 text-gray-700">M3 - M56 | 3/6" to 2" | Custom Sizes</td>
+                          <td className="px-3 md:px-4 py-2 md:py-3 bg-gray-50 font-semibold text-gray-800 border-r border-gray-300 text-xs md:text-sm whitespace-nowrap">DIAMETER</td>
+                          <td className="px-3 md:px-4 py-2 md:py-3 text-gray-700 text-xs md:text-sm">M3 - M56 | 3/6" to 2" | Custom Sizes</td>
                         </tr>
                         <tr>
-                          <td className="px-4 py-3 bg-gray-50 font-semibold text-gray-800 border-r border-gray-300">DIAMETER</td>
-                          <td className="px-4 py-3 text-gray-700">M24 TO M56 (HOT FORGED)</td>
+                          <td className="px-3 md:px-4 py-2 md:py-3 bg-gray-50 font-semibold text-gray-800 border-r border-gray-300 text-xs md:text-sm whitespace-nowrap">DIAMETER</td>
+                          <td className="px-3 md:px-4 py-2 md:py-3 text-gray-700 text-xs md:text-sm">M24 TO M56 (HOT FORGED)</td>
                         </tr>
                         <tr>
-                          <td className="px-4 py-3 bg-gray-50 font-semibold text-gray-800 border-r border-gray-300">LENGTHS</td>
-                          <td className="px-4 py-3 text-gray-700">UP TO 300 MM</td>
+                          <td className="px-3 md:px-4 py-2 md:py-3 bg-gray-50 font-semibold text-gray-800 border-r border-gray-300 text-xs md:text-sm whitespace-nowrap">LENGTHS</td>
+                          <td className="px-3 md:px-4 py-2 md:py-3 text-gray-700 text-xs md:text-sm">UP TO 300 MM</td>
                         </tr>
                         <tr>
-                          <td className="px-4 py-3 bg-gray-50 font-semibold text-gray-800 border-r border-gray-300">Size</td>
-                          <td className="px-4 py-3 text-gray-700">3 mm to 200 mm</td>
+                          <td className="px-3 md:px-4 py-2 md:py-3 bg-gray-50 font-semibold text-gray-800 border-r border-gray-300 text-xs md:text-sm whitespace-nowrap">Size</td>
+                          <td className="px-3 md:px-4 py-2 md:py-3 text-gray-700 text-xs md:text-sm">3 mm to 200 mm</td>
                         </tr>
                         <tr>
-                          <td className="px-4 py-3 bg-gray-50 font-semibold text-gray-800 border-r border-gray-300">THREAD LENGTH</td>
-                          <td className="px-4 py-3 text-gray-700">MM THREADS & PARTIALLY THREADED</td>
+                          <td className="px-3 md:px-4 py-2 md:py-3 bg-gray-50 font-semibold text-gray-800 border-r border-gray-300 text-xs md:text-sm whitespace-nowrap">THREAD LENGTH</td>
+                          <td className="px-3 md:px-4 py-2 md:py-3 text-gray-700 text-xs md:text-sm">MM THREADS & PARTIALLY THREADED</td>
                         </tr>
                         <tr>
-                          <td className="px-4 py-3 bg-gray-50 font-semibold text-gray-800 border-r border-gray-300">THREAD TYPE</td>
-                          <td className="px-4 py-3 text-gray-700">MM THREADS & BSW THREADS</td>
+                          <td className="px-3 md:px-4 py-2 md:py-3 bg-gray-50 font-semibold text-gray-800 border-r border-gray-300 text-xs md:text-sm whitespace-nowrap">THREAD TYPE</td>
+                          <td className="px-3 md:px-4 py-2 md:py-3 text-gray-700 text-xs md:text-sm">MM THREADS & BSW THREADS</td>
                         </tr>
                         <tr>
-                          <td className="px-4 py-3 bg-gray-50 font-semibold text-gray-800 border-r border-gray-300">STANDARD FOLLOWED</td>
-                          <td className="px-4 py-3 text-gray-700">DIN, ASTM, BS and all International Standards</td>
+                          <td className="px-3 md:px-4 py-2 md:py-3 bg-gray-50 font-semibold text-gray-800 border-r border-gray-300 text-xs md:text-sm whitespace-nowrap">STANDARD FOLLOWED</td>
+                          <td className="px-3 md:px-4 py-2 md:py-3 text-gray-700 text-xs md:text-sm">DIN, ASTM, BS and all International Standards</td>
                         </tr>
                       </tbody>
                     </table>
@@ -329,9 +329,9 @@ export default function BoltsPage() {
               </div>
 
               <div className="mb-12">
-                <h3 className="text-3xl font-bold text-gray-800 mb-2">Types of Bolt</h3>
+                <h3 className="text-2xl md:text-3xl font-bold text-gray-800 mb-2">Types of Bolt</h3>
                 <div className="w-16 h-1 bg-[#1e3a8a] mb-6"></div>
-                <p className="text-gray-600 text-lg leading-relaxed mb-8">
+                <p className="text-gray-600 text-sm md:text-base lg:text-lg leading-relaxed mb-6 md:mb-8">
                   Ensure you select the appropriate Bolt for your application, considering factors such as material, size, and load-bearing capacity, as each Bolt boasts a unique design tailored for specific purposes. Below are some examples:
                 </p>
 
@@ -553,22 +553,22 @@ export default function BoltsPage() {
       </div>
 
       <div
-        className="relative bg-cover bg-center py-20"
+        className="relative bg-cover bg-center py-12 md:py-16 lg:py-20"
         style={{
           backgroundImage: 'url(https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=1260)',
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/70 to-black/80"></div>
         <div className="container mx-auto px-4 relative z-10 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Contact K.C. Impex Today
+          <h2 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white mb-4 md:mb-6">
+            Contact Horizon Metal & Alloys Today
           </h2>
-          <p className="text-white text-lg md:text-xl max-w-4xl mx-auto mb-8 leading-relaxed">
-            Choose K.C. Impex for your bolt needs and experience the difference quality, expertise, and commitment can make in your projects. Contact us today to discuss your requirements, request a quote, or place an order. Join countless satisfied customers who rely on K.C. Impex for premium bolts and exceptional service.
+          <p className="text-white text-sm md:text-base lg:text-lg xl:text-xl max-w-4xl mx-auto mb-6 md:mb-8 leading-relaxed">
+            Choose Horizon Metal & Alloys for your bolt needs and experience the difference quality, expertise, and commitment can make in your projects. Contact us today to discuss your requirements, request a quote, or place an order. Join countless satisfied customers who rely on Horizon Metal & Alloys for premium bolts and exceptional service.
           </p>
           <Link
             to="/contact"
-            className="inline-flex items-center gap-2 bg-[#2563eb] hover:bg-[#1e40af] text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors shadow-lg hover:shadow-xl"
+            className="inline-flex items-center gap-2 bg-[#2563eb] hover:bg-[#1e40af] text-white px-6 md:px-8 py-3 md:py-4 rounded-lg font-semibold text-base md:text-lg transition-colors shadow-lg hover:shadow-xl"
           >
             Let's Contact Us
             <ChevronRight size={20} />

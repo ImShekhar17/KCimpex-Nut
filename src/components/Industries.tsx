@@ -1,53 +1,56 @@
 import { useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
 
 const industries = [
   {
     name: 'Offshore Plant',
-    image: 'https://images.pexels.com/photos/3902728/pexels-photo-3902728.jpeg?auto=compress&cs=tinysrgb&w=600'
+    image: '/Offs.webp',
+    link: '/'
   },
   {
     name: 'Oil & Gas Industries',
-    image: 'https://images.pexels.com/photos/3844796/pexels-photo-3844796.jpeg?auto=compress&cs=tinysrgb&w=600'
+    image: '/OILGas.webp',
+    link: '/'
   },
   {
     name: 'Petrochemical Industries',
-    image: 'https://images.pexels.com/photos/257700/pexels-photo-257700.jpeg?auto=compress&cs=tinysrgb&w=600'
+    image: '/Petrochem.webp',
+    link: '/'
   },
   {
     name: 'Power plant',
-    image: 'https://images.pexels.com/photos/221012/pexels-photo-221012.jpeg?auto=compress&cs=tinysrgb&w=600'
+    image: '/Power.webp',
+    link: '/'
   },
   {
-    name: 'Marine & Ship Building',
-    image: 'https://images.pexels.com/photos/1059119/pexels-photo-1059119.jpeg?auto=compress&cs=tinysrgb&w=600'
+    name: 'Heat Exchanger',
+    image: '/Heatx.webp',
+    link: '/'
   },
   {
     name: 'Refinery',
-    image: 'https://images.pexels.com/photos/3862628/pexels-photo-3862628.jpeg?auto=compress&cs=tinysrgb&w=600'
+    image: '/Refine.webp',
+    link: '/'
   },
   {
-    name: 'Automotive Industry',
-    image: 'https://images.pexels.com/photos/2768961/pexels-photo-2768961.jpeg?auto=compress&cs=tinysrgb&w=600'
-  },
-  {
-    name: 'Pharmaceutical Industry',
-    image: 'https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=600'
+    name: 'Forging',
+    image: '/Fordge.webp',
+    link: '/'
   },
   {
     name: 'Engineering Sector',
-    image: 'https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=600'
-  },
-  {
-    name: 'Aerospace Industry',
-    image: 'https://images.pexels.com/photos/163726/aircraft-holiday-sun-tourism-163726.jpeg?auto=compress&cs=tinysrgb&w=600'
+    image: 'https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=600',
+    link: '/'
   },
   {
     name: 'Construction Industry',
-    image: 'https://images.pexels.com/photos/585419/pexels-photo-585419.jpeg?auto=compress&cs=tinysrgb&w=600'
+    image: 'https://images.pexels.com/photos/585419/pexels-photo-585419.jpeg?auto=compress&cs=tinysrgb&w=600',
+    link: '/'
   },
   {
     name: 'Engine & Turbines',
-    image: 'https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=600'
+    image: 'https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=600',
+    link: '/'
   }
 ];
 
@@ -95,8 +98,9 @@ export default function Industries() {
         >
           <div className="flex gap-6" style={{ width: 'max-content' }}>
             {duplicatedIndustries.map((industry, index) => (
-              <div
+              <Link
                 key={index}
+                to={industry.link}
                 className="group cursor-pointer overflow-hidden rounded-lg border border-gray-200 hover:shadow-xl transition-shadow flex-shrink-0"
                 style={{ width: '250px' }}
               >
@@ -112,7 +116,7 @@ export default function Industries() {
                     {industry.name}
                   </h3>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>

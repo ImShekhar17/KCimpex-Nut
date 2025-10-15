@@ -27,47 +27,47 @@ export default function WashersPage() {
   const washerTypes = [
     {
       name: 'Belleville Washers',
-      image: 'https://images.pexels.com/photos/1249610/pexels-photo-1249610.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/Bwasher.webp'
     },
     {
       name: 'Bonded Sealing Washers',
-      image: 'https://images.pexels.com/photos/209235/pexels-photo-209235.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/BoundedW.webp'
     },
     {
       name: 'Flat Washers',
-      image: 'https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/FlatWasher.webp'
     },
     {
       name: 'Lock Washers',
-      image: 'https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/LockW.webp'
     },
     {
       name: 'Spring Washers',
-      image: 'https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/Spring.webp'
     },
     {
       name: 'Star Washers',
-      image: 'https://images.pexels.com/photos/1249610/pexels-photo-1249610.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/Starw.webp'
     },
     {
       name: 'Square Washer',
-      image: 'https://images.pexels.com/photos/209235/pexels-photo-209235.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/Squarew.webp'
     },
     {
       name: 'Plain Washers',
-      image: 'https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/Plainw.webp'
     },
     {
       name: 'Countersunk Washer',
-      image: 'https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/CounterSunk.webp'
     }
   ];
 
   const productImages = [
-    'https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=600',
-    'https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg?auto=compress&cs=tinysrgb&w=600',
-    'https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=600',
-    'https://images.pexels.com/photos/209235/pexels-photo-209235.jpeg?auto=compress&cs=tinysrgb&w=600'
+    '/W1.webp',
+    '/W2.avif',
+    '/W3.webp',
+    '/W4.webp',
   ];
 
   const grades = [
@@ -195,13 +195,13 @@ export default function WashersPage() {
   const applicationImages = [
     'https://images.pexels.com/photos/3862628/pexels-photo-3862628.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=400',
-    'https://images.pexels.com/photos/1059119/pexels-photo-1059119.jpeg?auto=compress&cs=tinysrgb&w=400',
+    'https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/257700/pexels-photo-257700.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/2768961/pexels-photo-2768961.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=400',
-    'https://images.pexels.com/photos/163726/aircraft-holiday-sun-tourism-163726.jpeg?auto=compress&cs=tinysrgb&w=400',
+    'https://images.pexels.com/photos/3862628/pexels-photo-3862628.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/585419/pexels-photo-585419.jpeg?auto=compress&cs=tinysrgb&w=400'
   ];
 
@@ -232,7 +232,7 @@ export default function WashersPage() {
             <div className="lg:col-span-3">
               <div className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-800 mb-6">
-                  Welcome to K.C. Impex - Your Premier Washer Manufacturer and Supplier in India
+                  Welcome to Horizon Metal & Alloys - Your Premier Washer Manufacturer and Supplier in India
                 </h2>
                 <div className="space-y-4">
                   <p className="text-gray-700 leading-relaxed">
@@ -311,7 +311,7 @@ export default function WashersPage() {
                 <h3 className="text-3xl font-bold text-gray-800 mb-2">Types of Washer</h3>
                 <div className="w-16 h-1 bg-[#1e3a8a] mb-6"></div>
                 <p className="text-gray-600 text-lg leading-relaxed mb-8">
-                  Discover the industry-standard washer specifications recommended by leading fastener manufacturers. Contact K.C. Impex today to access the latest pricing for washers and ensure your fastening needs are met with precision and reliability.
+                  Discover the industry-standard washer specifications recommended by leading fastener manufacturers. Contact Horizon Metal & Alloys today to access the latest pricing for washers and ensure your fastening needs are met with precision and reliability.
                 </p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
@@ -540,10 +540,10 @@ export default function WashersPage() {
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/70 to-black/80"></div>
         <div className="container mx-auto px-4 relative z-10 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Contact K.C. Impex Today
+            Contact Horizon Metal & Alloys Today
           </h2>
           <p className="text-white text-lg md:text-xl max-w-4xl mx-auto mb-8 leading-relaxed">
-            Choose K.C. Impex for your washer needs and experience the difference quality, expertise, and commitment can make in your projects. Contact us today to discuss your requirements, request a quote, or place an order. Join countless satisfied customers who rely on K.C. Impex for premium washers and exceptional service.
+            Choose Horizon Metal & Alloys for your washer needs and experience the difference quality, expertise, and commitment can make in your projects. Contact us today to discuss your requirements, request a quote, or place an order. Join countless satisfied customers who rely on Horizon Metal & Alloys for premium washers and exceptional service.
           </p>
           <Link
             to="/contact"

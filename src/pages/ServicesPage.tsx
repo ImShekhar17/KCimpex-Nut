@@ -67,15 +67,15 @@ export default function ServicesPage() {
       <Header />
 
       <div
-        className="relative h-80 flex items-center justify-center bg-cover bg-center"
+        className="relative h-64 md:h-72 lg:h-80 flex items-center justify-center bg-cover bg-center"
         style={{
           backgroundImage: 'url(https://images.pexels.com/photos/1474993/pexels-photo-1474993.jpeg?auto=compress&cs=tinysrgb&w=1200)'
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-[#1e3a8a]/90 to-[#1e3a8a]/70"></div>
         <div className="relative z-10 text-center text-white px-4">
-          <h1 className="text-5xl font-bold mb-4">SERVICES</h1>
-          <div className="flex items-center justify-center gap-2 text-lg">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-3 md:mb-4">SERVICES</h1>
+          <div className="flex items-center justify-center gap-2 text-sm md:text-base lg:text-lg">
             <a href="/" className="hover:text-gray-200 transition-colors">Home</a>
             <span>→</span>
             <span>Services</span>
@@ -83,9 +83,9 @@ export default function ServicesPage() {
         </div>
       </div>
 
-      <div className="flex-grow bg-gray-50 py-16">
+      <div className="flex-grow bg-gray-50 py-8 md:py-12 lg:py-16">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
             {services.map((service) => (
               <div
                 key={service.id}
@@ -103,10 +103,10 @@ export default function ServicesPage() {
                 </div>
 
                 <div className="p-8 bg-white">
-                  <h3 className="text-2xl font-bold text-[#1e3a8a] mb-4">
+                  <h3 className="text-xl md:text-2xl font-bold text-[#1e3a8a] mb-3 md:mb-4">
                     {service.title}
                   </h3>
-                  <p className="text-gray-700 leading-relaxed text-sm">
+                  <p className="text-gray-700 leading-relaxed text-xs md:text-sm">
                     {service.description}
                   </p>
                 </div>

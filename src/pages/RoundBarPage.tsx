@@ -195,13 +195,13 @@ export default function RoundBarPage() {
   const applicationImages = [
     'https://images.pexels.com/photos/3862628/pexels-photo-3862628.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=400',
-    'https://images.pexels.com/photos/1059119/pexels-photo-1059119.jpeg?auto=compress&cs=tinysrgb&w=400',
+    'https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/257700/pexels-photo-257700.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/2768961/pexels-photo-2768961.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=400',
-    'https://images.pexels.com/photos/163726/aircraft-holiday-sun-tourism-163726.jpeg?auto=compress&cs=tinysrgb&w=400',
+    'https://images.pexels.com/photos/3862628/pexels-photo-3862628.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/585419/pexels-photo-585419.jpeg?auto=compress&cs=tinysrgb&w=400'
   ];
 
@@ -232,17 +232,17 @@ export default function RoundBarPage() {
             <div className="lg:col-span-3">
               <div className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-800 mb-6">
-                  Welcome to K.C. Impex - Your Premier Round Bar Manufacturer and Supplier in India
+                  Welcome to Horizon Metal & Alloys - Your Premier Round Bar Manufacturer and Supplier in India
                 </h2>
                 <div className="space-y-4">
                   <p className="text-gray-700 leading-relaxed">
-                    <span className="text-[#2563eb] font-semibold">K.C. Impex</span> is a leading supplier and stockist of <span className="text-[#2563eb]">High-Nickel alloys Bars & Rods in India</span>, catering to diverse industries and applications. Our extensive range includes <span className="text-[#2563eb]">High Nickel alloys Round Bars, Square Bars, Hex Rolled Bars, Hex Bars, Bright Bars, Forged Bars, and Rods</span>, available in various sizes, lengths, standards, and thicknesses. We also offer custom fabrication to meet specific customer requirements and standards.
+                    <span className="text-[#2563eb] font-semibold">Horizon Metal & Alloys</span> is a leading supplier and stockist of <span className="text-[#2563eb]">High-Nickel alloys Bars & Rods in India</span>, catering to diverse industries and applications. Our extensive range includes <span className="text-[#2563eb]">High Nickel alloys Round Bars, Square Bars, Hex Rolled Bars, Hex Bars, Bright Bars, Forged Bars, and Rods</span>, available in various sizes, lengths, standards, and thicknesses. We also offer custom fabrication to meet specific customer requirements and standards.
                   </p>
                   <p className="text-gray-700 leading-relaxed">
                     Alloys Round Bars play a pivotal role in the machining industry, valued for their ease of cutting and machining into tools. Their exceptional machining properties, coupled with high corrosion resistance, make them indispensable in the fabrication of machines and automobile components.
                   </p>
                   <p className="text-gray-700 leading-relaxed">
-                    At <span className="text-[#2563eb] font-semibold">K.C. Impex</span>, we offer highly competitive pricing on products like <span className="text-[#2563eb]">Stainless Steel Round Bars</span>. Our company oversees every aspect of the process, from manufacturing to packaging, testing, and inspection, ensuring adherence to strict quality standards. Throughout production, we maintain vigilance against manufacturing practices, guaranteeing the excellence of our products until they reach our valued customers. Choose <span className="text-[#2563eb] font-semibold">K.C. Impex</span> for the finest quality stainless steel round bars.
+                    At <span className="text-[#2563eb] font-semibold">Horizon Metal & Alloys</span>, we offer highly competitive pricing on products like <span className="text-[#2563eb]">Stainless Steel Round Bars</span>. Our company oversees every aspect of the process, from manufacturing to packaging, testing, and inspection, ensuring adherence to strict quality standards. Throughout production, we maintain vigilance against manufacturing practices, guaranteeing the excellence of our products until they reach our valued customers. Choose <span className="text-[#2563eb] font-semibold">Horizon Metal & Alloys</span> for the finest quality stainless steel round bars.
                   </p>
                 </div>
               </div>
@@ -303,7 +303,7 @@ export default function RoundBarPage() {
                 <h3 className="text-3xl font-bold text-gray-800 mb-2">Types of Round Bar</h3>
                 <div className="w-16 h-1 bg-[#1e3a8a] mb-6"></div>
                 <p className="text-gray-600 text-lg leading-relaxed mb-8">
-                  Discover the industry-standard round bar specifications recommended by leading fastener manufacturers. Contact K.C. Impex today to access the latest pricing for round bars and ensure your fastening needs are met with precision and reliability.
+                  Discover the industry-standard round bar specifications recommended by leading fastener manufacturers. Contact Horizon Metal & Alloys today to access the latest pricing for round bars and ensure your fastening needs are met with precision and reliability.
                 </p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
@@ -532,10 +532,10 @@ export default function RoundBarPage() {
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/70 to-black/80"></div>
         <div className="container mx-auto px-4 relative z-10 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Contact K.C. Impex Today
+            Contact Horizon Metal & Alloys Today
           </h2>
           <p className="text-white text-lg md:text-xl max-w-4xl mx-auto mb-8 leading-relaxed">
-            Choose K.C. Impex for your round bar needs and experience the difference quality, expertise, and commitment can make in your projects. Contact us today to discuss your requirements, request a quote, or place an order. Join countless satisfied customers who rely on K.C. Impex for premium round bars and exceptional service.
+            Choose Horizon Metal & Alloys for your round bar needs and experience the difference quality, expertise, and commitment can make in your projects. Contact us today to discuss your requirements, request a quote, or place an order. Join countless satisfied customers who rely on Horizon Metal & Alloys for premium round bars and exceptional service.
           </p>
           <Link
             to="/contact"

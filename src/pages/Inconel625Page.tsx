@@ -357,65 +357,69 @@ const Inconel625Page = () => {
               </div>
             </div>
 
-            <div className="bg-white rounded-lg shadow-sm p-8 mb-8">
+                        <div className="bg-white rounded-lg shadow-sm p-8 mb-8">
               <h2 className="text-3xl font-bold text-gray-900 mb-8">
                 Applications Of INCONEL 625
               </h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-                <div>
-                  <ul className="space-y-3">
-                    {applications.map((app, index) => (
-                      <li key={index} className="flex items-start gap-3">
-                        <ChevronRight className="w-5 h-5 text-[#1e3a8a] flex-shrink-0 mt-0.5" />
-                        <span className="text-gray-700">{app}</span>
-                      </li>
-                    ))}
-                  </ul>
+              <div className="mb-8">
+                <div className="flex flex-wrap gap-8 justify-center mb-8">
+                  <div className="relative w-48 h-48">
+                    <div className="absolute inset-0 rounded-lg overflow-hidden transform rotate-45">
+                      <img src="https://images.pexels.com/photos/256297/pexels-photo-256297.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Oil & Gas" className="w-full h-full object-cover transform -rotate-45 scale-150" />
+                    </div>
+                  </div>
+                  <div className="relative w-48 h-48">
+                    <div className="absolute inset-0 rounded-lg overflow-hidden transform rotate-45">
+                      <img src="https://images.pexels.com/photos/1267338/pexels-photo-1267338.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Marine" className="w-full h-full object-cover transform -rotate-45 scale-150" />
+                    </div>
+                  </div>
+                  <div className="relative w-48 h-48">
+                    <div className="absolute inset-0 rounded-lg overflow-hidden transform rotate-45">
+                      <img src="https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Chemical" className="w-full h-full object-cover transform -rotate-45 scale-150" />
+                    </div>
+                  </div>
                 </div>
-                <div className="relative">
-                  <div className="grid grid-cols-3 gap-2">
-                    <div className="hexagon-container">
-                      <img
-                        src="https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=300"
-                        alt="Oil & Gas"
-                        className="w-full h-32 object-cover rounded-lg"
-                      />
-                    </div>
-                    <div className="hexagon-container">
-                      <img
-                        src="https://images.pexels.com/photos/256297/pexels-photo-256297.jpeg?auto=compress&cs=tinysrgb&w=300"
-                        alt="Power Plant"
-                        className="w-full h-32 object-cover rounded-lg"
-                      />
-                    </div>
-                    <div className="hexagon-container">
-                      <img
-                        src="https://images.pexels.com/photos/8728557/pexels-photo-8728557.jpeg?auto=compress&cs=tinysrgb&w=300"
-                        alt="Refining"
-                        className="w-full h-32 object-cover rounded-lg"
-                      />
-                    </div>
-                    <div className="hexagon-container">
-                      <img
-                        src="https://images.pexels.com/photos/906982/pexels-photo-906982.jpeg?auto=compress&cs=tinysrgb&w=300"
-                        alt="Marine"
-                        className="w-full h-32 object-cover rounded-lg"
-                      />
-                    </div>
-                    <div className="hexagon-container">
-                      <img
-                        src="https://images.pexels.com/photos/2760241/pexels-photo-2760241.jpeg?auto=compress&cs=tinysrgb&w=300"
-                        alt="Engineering"
-                        className="w-full h-32 object-cover rounded-lg"
-                      />
-                    </div>
-                    <div className="hexagon-container">
-                      <img
-                        src="https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=300"
-                        alt="Construction"
-                        className="w-full h-32 object-cover rounded-lg"
-                      />
-                    </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-1">◉</span>
+                    <span className="text-gray-700">Oil & Gas Industry</span>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-1">◉</span>
+                    <span className="text-gray-700">Power Plant</span>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-1">◉</span>
+                    <span className="text-gray-700">Marine & Ship Building Industry</span>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-1">◉</span>
+                    <span className="text-gray-700">Refining Industry</span>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-1">◉</span>
+                    <span className="text-gray-700">Automotive Industry</span>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-1">◉</span>
+                    <span className="text-gray-700">Pharmaceutical Industry</span>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-1">◉</span>
+                    <span className="text-gray-700">Engineering Sector</span>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-1">◉</span>
+                    <span className="text-gray-700">Engine & Turbines</span>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-1">◉</span>
+                    <span className="text-gray-700">Aerospace Industry</span>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <span className="text-blue-600 mt-1">◉</span>
+                    <span className="text-gray-700">Construction Industry</span>
                   </div>
                 </div>
               </div>

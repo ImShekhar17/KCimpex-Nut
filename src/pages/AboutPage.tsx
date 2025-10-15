@@ -5,6 +5,7 @@ import ScrollToTop from '../components/ScrollToTop';
 import FeedbackButton from '../components/FeedbackButton';
 import { Clock, DollarSign, CheckCircle2, ShieldCheck, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import Thrust from '../../public/Thrust.jpg';
 
 export default function AboutPage() {
   const certifications = [
@@ -56,35 +57,35 @@ export default function AboutPage() {
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Company History</h2>
               <div className="space-y-4 text-gray-700 leading-relaxed">
                 <p>
-                  Allow us to introduce ourselves as <span className="font-semibold">K.C. Impex</span>, your premier destination for all your fastening needs.
+                  Allow us to introduce ourselves as <span className="font-semibold">HORIZON METAL & ALLOYS</span>, your premier destination for all your fastening needs.
                   Whether you're a construction developer or equipment producer, we offer a comprehensive range of high-quality fasteners tailored to meet your specific requirements.
                 </p>
                 <p>
-                  With over <span className="font-semibold">10 years of industry experience</span>, K.C. Impex is dedicated to providing you with top-quality goods
+                  With over <span className="font-semibold">10 years of industry experience</span>, Horizon Metal & Alloys is dedicated to providing you with top-quality goods
                   at competitive rates and unparalleled service. Our extensive product line includes Nut & Bolt Fasteners,
                   Socket Fasteners, Screws, Washers, Studs, and specialty fasteners, all meticulously crafted to
                   meet international standards.
                 </p>
                 <p>
-                  K. C. Impex is a leading manufacturer and supplier of premium fittings, fasteners, nuts, bolts, and washers,
+                  Horizon Metal & Alloys is a leading manufacturer and supplier of premium fittings, fasteners, nuts, bolts, and washers,
                   specializing in high-nickel and high-performance alloys. With a distinguished decade of experience, we are
                   renowned for our unwavering commitment to exceeding the expectations of even the most challenging
                   engineering requirements.
                 </p>
               </div>
             </div>
-            <div className="relative">
-              <div className="relative rounded-lg overflow-hidden shadow-2xl">
-                <img
-                  src="https://images.pexels.com/photos/257700/pexels-photo-257700.jpeg?auto=compress&cs=tinysrgb&w=800"
-                  alt="Fasteners"
-                  className="w-full h-auto"
-                />
-                <div className="absolute bottom-4 right-4 bg-[#1e3a8a] text-white px-6 py-3 rounded font-semibold">
-                  Bolting Trust
-                </div>
-              </div>
-            </div>
+    <div className="relative">
+      <div className="relative rounded-lg overflow-hidden shadow-2xl">
+        <img
+          src={Thrust}
+          alt="Fasteners"
+          className="w-full h-auto"
+        />
+        <div className="absolute bottom-4 right-4 bg-[#1e3a8a] text-white px-6 py-3 rounded font-semibold">
+          Bolting Trust
+        </div>
+      </div>
+    </div>
           </div>
         </div>
       </section>
@@ -189,7 +190,7 @@ export default function AboutPage() {
 
               <div className="space-y-6 text-gray-700 leading-relaxed">
                 <p>
-                  We are proud to introduce <span className="font-semibold">M/s. K C IMPEX</span>, a well-established leader in the field of
+                  We are proud to introduce <span className="font-semibold">M/s. HORIZON METAK & ALLOYS</span>, a well-established leader in the field of
                   High-Pressure Exotic Metals and a wide range of Ferrous and Non-Ferrous Metals. With
                   business operations spanning both domestic and international markets, we have built a
                   strong reputation for delivering high-quality products and exceptional service.
@@ -206,7 +207,7 @@ export default function AboutPage() {
                 </p>
 
                 <p>
-                  At K C IMPEX, we excel in the manufacturing of high-pressure pipe fittings, fasteners,
+                  At Horizon Metal & Alloys, we excel in the manufacturing of high-pressure pipe fittings, fasteners,
                   flanges, and finger safety tools. Our products are engineered to cater to the demanding
                   requirements of industrial applications across a variety of sectors.
                 </p>
@@ -219,7 +220,7 @@ export default function AboutPage() {
               </div>
 
               {/* Certification Logos */}
-              <div className="flex items-center gap-8 mt-12">
+              {/* <div className="flex items-center gap-8 mt-12">
                 <div className="text-center">
                   <img
                     src="https://images.pexels.com/photos/6863332/pexels-photo-6863332.jpeg?auto=compress&cs=tinysrgb&w=200"
@@ -242,63 +243,64 @@ export default function AboutPage() {
                     className="h-20 mx-auto"
                   />
                 </div>
-              </div>
+              </div> */}
             </div>
 
             {/* Right Side Cards */}
-            <div className="space-y-6">
-              {/* Professional Services */}
-              <div className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
-                <div className="flex justify-center mb-4">
-                  <div className="w-16 h-16 bg-[#1e3a8a]/10 rounded-full flex items-center justify-center">
-                    <ShieldCheck className="w-8 h-8 text-[#1e3a8a]" />
-                  </div>
-                </div>
-                <h3 className="text-xl font-bold text-center text-gray-900 mb-3">Professional Services</h3>
-                <p className="text-center text-gray-600 text-sm">
-                  Experience excellent quality, fast lead times, and responsive customer service at K.C. Impex.
-                </p>
-              </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+  {/* Professional Services */}
+  <div className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
+    <div className="flex justify-center mb-4">
+      <div className="w-16 h-16 bg-[#1e3a8a]/10 rounded-full flex items-center justify-center">
+        <ShieldCheck className="w-8 h-8 text-[#1e3a8a]" />
+      </div>
+    </div>
+    <h3 className="text-xl font-bold text-center text-gray-900 mb-3">Professional Services</h3>
+    <p className="text-center text-gray-600 text-sm">
+      Experience excellent quality, fast lead times, and responsive customer service at Horizon Metal & Alloys.
+    </p>
+  </div>
 
-              {/* Timely Delivery */}
-              <div className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
-                <div className="flex justify-center mb-4">
-                  <div className="w-16 h-16 bg-[#1e3a8a]/10 rounded-full flex items-center justify-center">
-                    <Clock className="w-8 h-8 text-[#1e3a8a]" />
-                  </div>
-                </div>
-                <h3 className="text-xl font-bold text-center text-gray-900 mb-3">Timely Delivery</h3>
-                <p className="text-center text-gray-600 text-sm">
-                  Count on K.C. Impex for on-time delivery regardless of any obstacles.
-                </p>
-              </div>
+  {/* Timely Delivery */}
+  <div className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
+    <div className="flex justify-center mb-4">
+      <div className="w-16 h-16 bg-[#1e3a8a]/10 rounded-full flex items-center justify-center">
+        <Clock className="w-8 h-8 text-[#1e3a8a]" />
+      </div>
+    </div>
+    <h3 className="text-xl font-bold text-center text-gray-900 mb-3">Timely Delivery</h3>
+    <p className="text-center text-gray-600 text-sm">
+      Count on Horizon Metal & Alloys for on-time delivery regardless of any obstacles.
+    </p>
+  </div>
 
-              {/* Competitive Price */}
-              <div className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
-                <div className="flex justify-center mb-4">
-                  <div className="w-16 h-16 bg-[#1e3a8a]/10 rounded-full flex items-center justify-center">
-                    <DollarSign className="w-8 h-8 text-[#1e3a8a]" />
-                  </div>
-                </div>
-                <h3 className="text-xl font-bold text-center text-gray-900 mb-3">Competitive Price</h3>
-                <p className="text-center text-gray-600 text-sm">
-                  Enjoy highly competitive and affordable prices from K.C. Impex, suitable for all industries.
-                </p>
-              </div>
+  {/* Competitive Price */}
+  <div className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
+    <div className="flex justify-center mb-4">
+      <div className="w-16 h-16 bg-[#1e3a8a]/10 rounded-full flex items-center justify-center">
+        <DollarSign className="w-8 h-8 text-[#1e3a8a]" />
+      </div>
+    </div>
+    <h3 className="text-xl font-bold text-center text-gray-900 mb-3">Competitive Price</h3>
+    <p className="text-center text-gray-600 text-sm">
+      Enjoy highly competitive and affordable prices from Horizon Metal & Alloys, suitable for all industries.
+    </p>
+  </div>
 
-              {/* Quality Control */}
-              <div className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
-                <div className="flex justify-center mb-4">
-                  <div className="w-16 h-16 bg-[#1e3a8a]/10 rounded-full flex items-center justify-center">
-                    <CheckCircle2 className="w-8 h-8 text-[#1e3a8a]" />
-                  </div>
-                </div>
-                <h3 className="text-xl font-bold text-center text-gray-900 mb-3">Quality Control</h3>
-                <p className="text-center text-gray-600 text-sm">
-                  Benefit from one of the best QC departments, ensuring strict process control at K.C. Impex.
-                </p>
-              </div>
-            </div>
+  {/* Quality Control */}
+  <div className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
+    <div className="flex justify-center mb-4">
+      <div className="w-16 h-16 bg-[#1e3a8a]/10 rounded-full flex items-center justify-center">
+        <CheckCircle2 className="w-8 h-8 text-[#1e3a8a]" />
+      </div>
+    </div>
+    <h3 className="text-xl font-bold text-center text-gray-900 mb-3">Quality Control</h3>
+    <p className="text-center text-gray-600 text-sm">
+      Benefit from one of the best QC departments, ensuring strict process control at Horizon Metal & Alloys.
+    </p>
+  </div>
+</div>
+
           </div>
         </div>
       </section>
@@ -356,7 +358,7 @@ export default function AboutPage() {
               Let's Begin an Exceptional Journey Together
             </h2>
             <p className="text-xl text-white/90 mb-10 leading-relaxed">
-              At K.C. Impex, our unwavering commitment to exceptional quality, service, and timely delivery has distinguished
+              At Horizon Metal & Alloys, our unwavering commitment to exceptional quality, service, and timely delivery has distinguished
               us for years. We prioritize your needs, attentively listening to your requirements and preferences, crafting tailor-made
               solutions to fulfill them. Let's collaborate and forge a path towards greatness together
             </p>

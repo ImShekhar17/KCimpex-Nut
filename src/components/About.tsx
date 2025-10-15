@@ -1,4 +1,5 @@
 import { ArrowRight } from 'lucide-react';
+import Thrust from '../../public/Thrust.jpg';
 
 export default function About() {
   return (
@@ -43,18 +44,18 @@ export default function About() {
             </button>
           </div>
 
-          <div className="relative mt-8 lg:mt-0">
-            <div className="relative">
-              <img
-                src="https://images.pexels.com/photos/1249610/pexels-photo-1249610.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="Industrial fasteners"
-                className="rounded-lg shadow-xl w-full"
-              />
-              <div className="absolute bottom-3 right-3 md:bottom-4 md:right-4 bg-gray-800/80 text-white px-4 py-2 md:px-6 md:py-3 rounded font-semibold text-sm md:text-base">
-                Bolting Trust
-              </div>
-            </div>
-          </div>
+<div className="relative mt-8 lg:mt-0">
+      <div className="relative">
+        <img
+          src={Thrust}
+          alt="Industrial fasteners"
+          className="rounded-lg shadow-xl w-full"
+        />
+        <div className="absolute bottom-3 right-3 md:bottom-4 md:right-4 bg-gray-800/80 text-white px-4 py-2 md:px-6 md:py-3 rounded font-semibold text-sm md:text-base">
+          Bolting Trust
+        </div>
+      </div>
+    </div>
         </div>
       </div>
     </section>

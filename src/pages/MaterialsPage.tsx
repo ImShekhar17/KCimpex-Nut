@@ -137,15 +137,15 @@ const MaterialsPage = () => {
     <div className="min-h-screen bg-gray-50">
       <Header />
       <div
-        className="relative bg-cover bg-center py-20"
+        className="relative bg-cover bg-center py-12 md:py-16 lg:py-20"
         style={{
           backgroundImage:
             'linear-gradient(rgba(21, 48, 99, 0.9), rgba(21, 48, 99, 0.9)), url(https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=1920)',
         }}
       >
-        <div className="max-w-7xl mx-auto px-6">
-          <h1 className="text-5xl font-bold text-white mb-4">METARIAL</h1>
-          <div className="flex items-center text-white text-sm">
+        <div className="max-w-7xl mx-auto px-4 md:px-6">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-3 md:mb-4">METARIAL</h1>
+          <div className="flex items-center text-white text-xs md:text-sm">
             <Link to="/" className="hover:underline">
               Home
             </Link>
@@ -155,8 +155,8 @@ const MaterialsPage = () => {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-6 py-16">
-        <h2 className="text-4xl font-bold text-gray-900 mb-8 border-b-4 border-blue-900 inline-block pb-2">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 py-12 md:py-16">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-6 md:mb-8 border-b-4 border-blue-900 inline-block pb-2">
           Grades
         </h2>
 
@@ -167,9 +167,9 @@ const MaterialsPage = () => {
               <div key={category.title} className="border border-gray-300 rounded-lg overflow-hidden bg-white">
                 <button
                   onClick={() => toggleCategory(category.title)}
-                  className="w-full px-6 py-4 flex items-center justify-between bg-white hover:bg-gray-50 transition-colors"
+                  className="w-full px-4 md:px-6 py-3 md:py-4 flex items-center justify-between bg-white hover:bg-gray-50 transition-colors"
                 >
-                  <span className="font-semibold text-gray-900 text-left">{category.title}</span>
+                  <span className="font-semibold text-gray-900 text-left text-sm md:text-base">{category.title}</span>
                   {isExpanded ? (
                     <ChevronDown className="w-5 h-5 text-gray-600" />
                   ) : (
@@ -178,14 +178,14 @@ const MaterialsPage = () => {
                 </button>
 
                 {isExpanded && (
-                  <div className="px-6 pb-6 pt-2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                  <div className="px-4 md:px-6 pb-4 md:pb-6 pt-2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-4">
                     {category.items.map((item) => (
                       <Link
                         key={item.name}
                         to={item.link}
-                        className="flex items-center justify-between px-4 py-3 border border-blue-900 rounded hover:bg-blue-50 transition-colors group"
+                        className="flex items-center justify-between px-3 md:px-4 py-2.5 md:py-3 border border-blue-900 rounded hover:bg-blue-50 transition-colors group"
                       >
-                        <span className="text-gray-900 font-medium">{item.name}</span>
+                        <span className="text-gray-900 font-medium text-sm md:text-base">{item.name}</span>
                         <ChevronRight className="w-5 h-5 text-blue-900 group-hover:translate-x-1 transition-transform" />
                       </Link>
                     ))}

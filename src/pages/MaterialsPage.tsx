@@ -42,16 +42,16 @@ const MaterialsPage = () => {
         { name: 'INCONEL alloy X-750', link: '/materials/inconel-alloy-x-750' },
         { name: 'INCONEL alloy 625', link: '/materials/inconel-alloy-625' },
         { name: 'INCONEL alloy 690', link: '/materials/inconel-alloy-690' },
-        { name: 'INCOLOY® alloy 800', link: '/materials/incoloy-alloy-800' },
+        { name: 'INCOLOY® alloy 800', link: '/materials' },
         { name: 'INCONEL® alloy 718', link: '/materials/inconel-alloy-718' },
-        { name: 'INCOLOY alloy 825', link: '/materials/incoloy-alloy-825' },
+        { name: 'INCOLOY alloy 825', link: '/materials' },
       ],
     },
     {
       title: 'NICKEL',
       items: [
-        { name: 'NICKEL 200', link: '/materials/nickel-200' },
-        { name: 'NICKEL 201', link: '/materials/nickel-201' },
+        { name: 'NICKEL 200', link: '/materials' },
+        { name: 'NICKEL 201', link: '/materials' },
       ],
     },
     {
@@ -60,8 +60,8 @@ const MaterialsPage = () => {
         { name: 'HASTELLOY C-276', link: '/materials/hastelloy-c-276' },
         { name: 'HASTELLOY C22', link: '/materials/hastelloy-c22' },
         { name: 'HASTELLOY B-2', link: '/materials/hastelloy-b-2' },
-        { name: 'HASTELLOY B-3', link: '/materials/hastelloy-b-3' },
-        { name: 'HASTELLOY X', link: '/materials/hastelloy-x' },
+        { name: 'HASTELLOY B-3', link: '/materials' },
+        { name: 'HASTELLOY X', link: '/materials' },
       ],
     },
     {
@@ -87,48 +87,48 @@ const MaterialsPage = () => {
     {
       title: 'SUPER STAINLESS STEEL',
       items: [
-        { name: '904L', link: '/materials/904l' },
-        { name: 'Alloy-20', link: '/materials/alloy-20' },
-        { name: 'SMO 254', link: '/materials/smo-254' },
-        { name: 'A-286', link: '/materials/a-286' },
-        { name: '253-MA', link: '/materials/253-ma' },
+        { name: '904L', link: '/materials' },
+        { name: 'Alloy-20', link: '/materials' },
+        { name: 'SMO 254', link: '/materials' },
+        { name: 'A-286', link: '/materials' },
+        { name: '253-MA', link: '/materials' },
       ],
     },
     {
       title: 'DUPLEX & SUPER DUPLEX STAINLESS STEEL',
       items: [
-        { name: 'Duplex 2205', link: '/materials/duplex-2205' },
-        { name: 'Super Duplex 2507', link: '/materials/super-duplex-2507' },
+        { name: 'Duplex 2205', link: '/materials' },
+        { name: 'Super Duplex 2507', link: '/materials' },
       ],
     },
     {
       title: 'TITANIUM ALLOYS',
       items: [
-        { name: 'CP Titanium Grade 1', link: '/materials/cp-titanium-grade-1' },
-        { name: 'Titanium Grade 5 / 6AL4V', link: '/materials/titanium-grade-5-6al4v' },
-        { name: 'Titanium Grade 11', link: '/materials/titanium-grade-11' },
-        { name: 'CP Titanium Grade 2', link: '/materials/cp-titanium-grade-2' },
-        { name: 'CP Titanium Grade 4', link: '/materials/cp-titanium-grade-4' },
-        { name: 'Titanium Grade 6 / 5Al 2.5Sn', link: '/materials/titanium-grade-6-5al-2-5sn' },
-        { name: 'Titanium Grade 12', link: '/materials/titanium-grade-12' },
-        { name: 'CP Titanium Grade 7', link: '/materials/cp-titanium-grade-7' },
+        { name: 'CP Titanium Grade 1', link: '/materials' },
+        { name: 'Titanium Grade 5 / 6AL4V', link: '/materials' },
+        { name: 'Titanium Grade 11', link: '/materials' },
+        { name: 'CP Titanium Grade 2', link: '/materials' },
+        { name: 'CP Titanium Grade 4', link: '/materials' },
+        { name: 'Titanium Grade 6 / 5Al 2.5Sn', link: '/materials' },
+        { name: 'Titanium Grade 12', link: '/materials' },
+        { name: 'CP Titanium Grade 7', link: '/materials' },
       ],
     },
     {
       title: 'HARD TO FIND ALLOYS',
       items: [
-        { name: 'Tantalum', link: '/materials/tantalum' },
-        { name: 'Niobium', link: '/materials/niobium' },
-        { name: 'Tungsten', link: '/materials/tungsten' },
-        { name: 'Gallium', link: '/materials/gallium' },
-        { name: 'Molybdenum', link: '/materials/molybdenum' },
-        { name: 'Rhenium', link: '/materials/rhenium' },
-        { name: 'Hafnium', link: '/materials/hafnium' },
-        { name: 'Indium', link: '/materials/indium' },
-        { name: 'Beryllium Copper', link: '/materials/beryllium-copper' },
-        { name: 'Vanadium', link: '/materials/vanadium' },
-        { name: 'Germanium', link: '/materials/germanium' },
-        { name: 'Harolx', link: '/materials/harolx' },
+        { name: 'Tantalum', link: '/materials/' },
+        { name: 'Niobium', link: '/materials/' },
+        { name: 'Tungsten', link: '/materials/' },
+        { name: 'Gallium', link: '/materials/' },
+        { name: 'Molybdenum', link: '/materials/' },
+        { name: 'Rhenium', link: '/materials/' },
+        { name: 'Hafnium', link: '/materials/' },
+        { name: 'Indium', link: '/materials/' },
+        { name: 'Beryllium Copper', link: '/materials/' },
+        { name: 'Vanadium', link: '/materials/' },
+        { name: 'Germanium', link: '/materials/' },
+        { name: 'Harolx', link: '/materials/' },
       ],
     },
   ];
@@ -144,13 +144,13 @@ const MaterialsPage = () => {
         }}
       >
         <div className="max-w-7xl mx-auto px-4 md:px-6">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-3 md:mb-4">METARIAL</h1>
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-3 md:mb-4">MATERIALS</h1>
           <div className="flex items-center text-white text-xs md:text-sm">
             <Link to="/" className="hover:underline">
               Home
             </Link>
             <ChevronRight className="w-4 h-4 mx-2" />
-            <span>Metarial</span>
+            <span>Material</span>
           </div>
         </div>
       </div>

@@ -27,47 +27,47 @@ export default function RoundBarPage() {
   const roundBarTypes = [
     {
       name: 'Round Bars',
-      image: 'https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/RoundBar.webp'
     },
     {
       name: 'Bright Bar',
-      image: 'https://images.pexels.com/photos/162553/nuts-bolts-metal-fixing-162553.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/BrightBar.webp'
     },
     {
       name: 'Square Bar',
-      image: 'https://images.pexels.com/photos/209235/pexels-photo-209235.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/Squarebar.jpg'
     },
     {
       name: 'Hex Bar',
-      image: 'https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/HexBar.webp'
     },
     {
       name: 'Flat Bar',
-      image: 'https://images.pexels.com/photos/209274/pexels-photo-209274.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/Flatbar.jpg'
     },
     {
       name: 'Forged Bar',
-      image: 'https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/ForgedB.webp'
     },
     {
       name: 'Black Bar',
-      image: 'https://images.pexels.com/photos/257700/pexels-photo-257700.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/BlackBar.webp'
     },
     {
       name: 'Hot Rolled Bar',
-      image: 'https://images.pexels.com/photos/2768961/pexels-photo-2768961.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/HotRoller.webp'
     },
     {
       name: 'Cold Rolled Bar',
-      image: 'https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/Coldbar.webp'
     }
   ];
 
   const productImages = [
-    'https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=600',
-    'https://images.pexels.com/photos/162553/nuts-bolts-metal-fixing-162553.jpeg?auto=compress&cs=tinysrgb&w=600',
-    'https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=600',
-    'https://images.pexels.com/photos/2768961/pexels-photo-2768961.jpeg?auto=compress&cs=tinysrgb&w=600'
+    '/Bar1.webp',
+    '/Bar2.webp',
+    '/Bar3.webp',
+    '/Bar4.jpg'
   ];
 
   const grades = [

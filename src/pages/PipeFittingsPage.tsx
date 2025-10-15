@@ -26,15 +26,15 @@ export default function PipeFittingsPage() {
   const fittingTypes = [
     {
       name: 'Buttweld Pipe Fittings',
-      image: 'https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/Butt.webp'
     },
     {
       name: 'Threaded Pipe Fittings',
-      image: 'https://images.pexels.com/photos/162553/nuts-bolts-metal-fixing-162553.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/Treat.webp'
     },
     {
       name: 'Socket Weld Fittings',
-      image: 'https://images.pexels.com/photos/209235/pexels-photo-209235.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/Socketw.webp'
     }
   ];
 
@@ -163,16 +163,15 @@ export default function PipeFittingsPage() {
   const applicationImages = [
     'https://images.pexels.com/photos/3862628/pexels-photo-3862628.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=400',
-    'https://images.pexels.com/photos/1059119/pexels-photo-1059119.jpeg?auto=compress&cs=tinysrgb&w=400',
+    'https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/257700/pexels-photo-257700.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/2768961/pexels-photo-2768961.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=400',
-    'https://images.pexels.com/photos/163726/aircraft-holiday-sun-tourism-163726.jpeg?auto=compress&cs=tinysrgb&w=400',
+    'https://images.pexels.com/photos/3862628/pexels-photo-3862628.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/585419/pexels-photo-585419.jpeg?auto=compress&cs=tinysrgb&w=400'
   ];
-
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
@@ -180,7 +179,7 @@ export default function PipeFittingsPage() {
       <div
         className="relative bg-cover bg-center py-32"
         style={{
-          backgroundImage: 'url(https://images.pexels.com/photos/162553/nuts-bolts-metal-fixing-162553.jpeg?auto=compress&cs=tinysrgb&w=1260)',
+          backgroundImage: 'url(https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=1260)',
         }}
       >
         <div className="absolute inset-0 bg-[#1e3a8a] bg-opacity-80"></div>
@@ -428,10 +427,10 @@ export default function PipeFittingsPage() {
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/70 to-black/80"></div>
         <div className="container mx-auto px-4 relative z-10 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Contact K.C. Impex Today
+            Contact Horizon Metal & Alloys Today
           </h2>
           <p className="text-white text-lg md:text-xl max-w-4xl mx-auto mb-8 leading-relaxed">
-            Choose K.C. Impex for your bolt needs and experience the difference quality, expertise, and commitment can make in your projects. Contact us today to discuss your requirements, request a quote, or place an order. Join countless satisfied customers who rely on K.C. Impex for premium bolts and exceptional service.
+            Choose Horizon Metal & Alloys for your bolt needs and experience the difference quality, expertise, and commitment can make in your projects. Contact us today to discuss your requirements, request a quote, or place an order. Join countless satisfied customers who rely on Horizon Metal & Alloys for premium bolts and exceptional service.
           </p>
           <Link
             to="/contact"

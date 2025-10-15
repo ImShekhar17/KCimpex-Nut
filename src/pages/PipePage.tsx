@@ -27,23 +27,23 @@ export default function PipePage() {
   const pipeTypes = [
     {
       name: 'ERW Pipes',
-      image: 'https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/Erw.webp'
     },
     {
       name: 'Seamless Pipes',
-      image: 'https://images.pexels.com/photos/162553/nuts-bolts-metal-fixing-162553.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/Seamless.webp'
     },
     {
       name: 'Welded Pipes',
-      image: 'https://images.pexels.com/photos/209235/pexels-photo-209235.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: '/Welded.webp'
     }
   ];
 
   const productImages = [
-    'https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=600',
-    'https://images.pexels.com/photos/162553/nuts-bolts-metal-fixing-162553.jpeg?auto=compress&cs=tinysrgb&w=600',
-    'https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=600',
-    'https://images.pexels.com/photos/2768961/pexels-photo-2768961.jpeg?auto=compress&cs=tinysrgb&w=600'
+    '/Pipe1.webp',
+    '/Pipe2.webp',
+    '/Pipe3.webp',
+    '/Pipe4.webp'
   ];
 
   const grades = [
@@ -171,13 +171,13 @@ export default function PipePage() {
   const applicationImages = [
     'https://images.pexels.com/photos/3862628/pexels-photo-3862628.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=400',
-    'https://images.pexels.com/photos/1059119/pexels-photo-1059119.jpeg?auto=compress&cs=tinysrgb&w=400',
+    'https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/257700/pexels-photo-257700.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/2768961/pexels-photo-2768961.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=400',
-    'https://images.pexels.com/photos/163726/aircraft-holiday-sun-tourism-163726.jpeg?auto=compress&cs=tinysrgb&w=400',
+    'https://images.pexels.com/photos/3862628/pexels-photo-3862628.jpeg?auto=compress&cs=tinysrgb&w=400',
     'https://images.pexels.com/photos/585419/pexels-photo-585419.jpeg?auto=compress&cs=tinysrgb&w=400'
   ];
 
@@ -208,14 +208,14 @@ export default function PipePage() {
             <div className="lg:col-span-3">
               <div className="mb-12">
                 <h2 className="text-3xl font-bold text-gray-800 mb-6">
-                  Welcome to K.C. Impex - Your Premier Pipe Manufacturer and Supplier in India
+                  Welcome to Horizon Metal & Alloys - Your Premier Pipe Manufacturer and Supplier in India
                 </h2>
                 <div className="space-y-4">
                   <p className="text-gray-700 leading-relaxed">
-                    Trust your to <span className="text-[#2563eb] font-semibold">K.C. Impex</span> seem to be a reputable company in the pipe supply industry, known for its high-quality products and wide range of applications. Offering <span className="text-[#2563eb]">corrosion-resistant, duplex, and heat-resistant pipes</span> is essential for various industries such as shipbuilding, chemical, aerospace, power plants, and sugar mills, where the quality of materials is crucial for safety and performance.
+                    Trust your to <span className="text-[#2563eb] font-semibold">Horizon Metal & Alloys</span> seem to be a reputable company in the pipe supply industry, known for its high-quality products and wide range of applications. Offering <span className="text-[#2563eb]">corrosion-resistant, duplex, and heat-resistant pipes</span> is essential for various industries such as shipbuilding, chemical, aerospace, power plants, and sugar mills, where the quality of materials is crucial for safety and performance.
                   </p>
                   <p className="text-gray-700 leading-relaxed">
-                    <span className="text-[#2563eb] font-semibold">K.C. Impex</span> holds a distinguished reputation as a premier pipe supplier in India, earning a global clientele across five continents and spanning over 50 countries. Specializing in <span className="text-[#2563eb]">stainless steel contractor operations</span> and as a manufacturer and stockist of an extensive range of pipes in various shapes, sizes, and specifications, ensuring a tailored solution for any need. Committed to excellence, every piece is meticulously crafted to meet and exceed customer standards, reaffirming our dedication to quality. The entire process is exceptionally monitored, leaving no room for defects in the end product. Recognized among the leaders in delivering high-caliber pipes in domestic and international markets, <span className="text-[#2563eb] font-semibold">K.C. Impex</span> exports. The entire diverse is exceptionally monitored, leaving no room for defects in the end product. Through rigorous stages of testing, we guarantee the delivery of pipes at the utmost quality for our valued customers.
+                    <span className="text-[#2563eb] font-semibold">Horizon Metal & Alloys</span> holds a distinguished reputation as a premier pipe supplier in India, earning a global clientele across five continents and spanning over 50 countries. Specializing in <span className="text-[#2563eb]">stainless steel contractor operations</span> and as a manufacturer and stockist of an extensive range of pipes in various shapes, sizes, and specifications, ensuring a tailored solution for any need. Committed to excellence, every piece is meticulously crafted to meet and exceed customer standards, reaffirming our dedication to quality. The entire process is exceptionally monitored, leaving no room for defects in the end product. Recognized among the leaders in delivering high-caliber pipes in domestic and international markets, <span className="text-[#2563eb] font-semibold">Horizon Metal & Alloys</span> exports. The entire diverse is exceptionally monitored, leaving no room for defects in the end product. Through rigorous stages of testing, we guarantee the delivery of pipes at the utmost quality for our valued customers.
                   </p>
                 </div>
               </div>
@@ -276,7 +276,7 @@ export default function PipePage() {
                 <h3 className="text-3xl font-bold text-gray-800 mb-2">Types of Pipe</h3>
                 <div className="w-16 h-1 bg-[#1e3a8a] mb-6"></div>
                 <p className="text-gray-600 text-lg leading-relaxed mb-8">
-                  Discover the industry-standard washer specifications recommended by leading fastener manufacturers. Contact K.C. Impex today to access the latest pricing for washers and ensure your fastening needs are met with precision and reliability.
+                  Discover the industry-standard washer specifications recommended by leading fastener manufacturers. Contact Horizon Metal & Alloys today to access the latest pricing for washers and ensure your fastening needs are met with precision and reliability.
                 </p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
@@ -505,10 +505,10 @@ export default function PipePage() {
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/70 to-black/80"></div>
         <div className="container mx-auto px-4 relative z-10 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Contact K.C. Impex Today
+            Contact Horizon Metal & Alloys Today
           </h2>
           <p className="text-white text-lg md:text-xl max-w-4xl mx-auto mb-8 leading-relaxed">
-            Choose K.C. Impex for your pipe needs and experience the difference quality, expertise, and commitment can make in your projects. Contact us today to discuss your requirements, request a quote, or place an order. Join countless satisfied customers who rely on K.C. Impex for premium pipes and exceptional service.
+            Choose Horizon Metal & Alloys for your pipe needs and experience the difference quality, expertise, and commitment can make in your projects. Contact us today to discuss your requirements, request a quote, or place an order. Join countless satisfied customers who rely on Horizon Metal & Alloys for premium pipes and exceptional service.
           </p>
           <Link
             to="/contact"

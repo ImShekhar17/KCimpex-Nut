@@ -247,7 +247,7 @@ export default function Header() {
                   {/* Calculators */}
                   <div className="relative group/sub">
                     <button className="w-full px-6 py-3 text-left text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] flex items-center justify-between">
-                      <span>Calculators</span>
+                      <span>Calculation</span>
                       <ChevronRight size={16} />
                     </button>
 
@@ -266,9 +266,9 @@ export default function Header() {
 
               <Link to="/services" className="text-gray-700 hover:text-[#1e3a8a] font-medium">Services</Link>
               <Link to="/contact" className="text-gray-700 hover:text-[#1e3a8a] font-medium">Contact</Link>
-              <button className="bg-[#1e3a8a] text-white px-6 py-2 rounded font-medium hover:bg-[#1e4cb8]">
+              {/* <button className="bg-[#1e3a8a] text-white px-6 py-2 rounded font-medium hover:bg-[#1e4cb8]">
                 Catalogue
-              </button>
+              </button> */}
               <button
                 onClick={() => setIsContactModalOpen(true)}
                 className="w-9 h-9 rounded-full bg-[#1e3a8a] text-white flex items-center justify-center hover:bg-[#1e4cb8] transition-colors"
@@ -308,9 +308,9 @@ export default function Header() {
                 <Link to="/materials" className="text-gray-700 hover:text-[#1e3a8a] font-medium px-4 py-2" onClick={() => setIsMobileMenuOpen(false)}>Materials</Link>
                 <Link to="/services" className="text-gray-700 hover:text-[#1e3a8a] font-medium px-4 py-2" onClick={() => setIsMobileMenuOpen(false)}>Services</Link>
                 <Link to="/contact" className="text-gray-700 hover:text-[#1e3a8a] font-medium px-4 py-2" onClick={() => setIsMobileMenuOpen(false)}>Contact</Link>
-                <button className="bg-[#1e3a8a] text-white px-6 py-2 rounded font-medium hover:bg-[#1e4cb8] mx-4">
+                {/* <button className="bg-[#1e3a8a] text-white px-6 py-2 rounded font-medium hover:bg-[#1e4cb8] mx-4">
                   Catalogue
-                </button>
+                </button> */}
                 <button
                   onClick={() => { setIsContactModalOpen(true); setIsMobileMenuOpen(false); }}
                   className="text-gray-700 hover:text-[#1e3a8a] font-medium px-4 py-2 text-left"

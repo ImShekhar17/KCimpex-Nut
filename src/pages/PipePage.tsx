@@ -185,22 +185,28 @@ export default function PipePage() {
     <div className="min-h-screen flex flex-col">
       <Header />
 
-      <div
-        className="relative bg-cover bg-center py-32"
-        style={{
-          backgroundImage: 'url(https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=1260)',
-        }}
-      >
-        <div className="absolute inset-0 bg-[#1e3a8a] bg-opacity-80"></div>
-        <div className="container mx-auto px-4 relative z-10">
-          <h1 className="text-5xl font-bold text-white mb-4">PIPE</h1>
-          <div className="flex items-center gap-2 text-white text-lg">
-            <Link to="/" className="hover:underline">Home</Link>
-            <span>→</span>
-            <span className="font-semibold">Pipe</span>
-          </div>
-        </div>
-      </div>
+<div className="relative py-32 overflow-hidden">
+  {/* Background Image */}
+  <img
+    src="/AllHero.jpg"
+    alt="Pipe Background"
+    className="absolute inset-0 w-full h-full object-cover"
+  />
+
+  {/* Overlay */}
+  <div className="absolute inset-0 bg-[#1e3a8a] bg-opacity-80"></div>
+
+  {/* Content */}
+  <div className="container mx-auto px-4 relative z-10">
+    <h1 className="text-5xl font-bold text-white mb-4">PIPE</h1>
+    <div className="flex items-center gap-2 text-white text-lg">
+      <Link to="/" className="hover:underline">Home</Link>
+      <span>→</span>
+      <span className="font-semibold">Pipe</span>
+    </div>
+  </div>
+</div>
+
 
       <div className="flex-grow bg-white">
         <div className="container mx-auto px-4 py-16">
@@ -499,7 +505,7 @@ export default function PipePage() {
       <div
         className="relative bg-cover bg-center py-20"
         style={{
-          backgroundImage: 'url(https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=1260)',
+          backgroundImage: 'url(https://images.pexels.com/photos/190574/pexels-photo-190574.jpeg?auto=compress&cs=tinysrgb&w=1920)',
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/70 to-black/80"></div>

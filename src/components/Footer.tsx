@@ -13,12 +13,14 @@ export default function Footer() {
 
   return (
     <footer className="relative bg-gray-900 text-white py-10 md:py-12 lg:py-16">
-      <div
-        className="absolute inset-0 bg-cover bg-center opacity-20"
-        style={{
-          backgroundImage: 'url(https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=1920)'
-        }}
-      ></div>
+      <div className="absolute inset-0 opacity-20">
+      <img 
+        src="/Footer.jpg" 
+        alt="background" 
+        className="w-full h-full object-cover" 
+      />
+    </div>
+
 
       <div className="relative z-10 container mx-auto px-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 md:gap-10 lg:gap-12 mb-8 md:mb-10 lg:mb-12">
@@ -139,7 +141,7 @@ export default function Footer() {
                   <svg className="w-4 h-4 mt-1" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd"/>
                   </svg>
-                  Rahimtulla Ladak Bldg., 46 A, Khetwadi 10th Lane, Mumbai 400 004.aar,Mumbai-400010
+                  Rahimtulla Ladak Bldg., 46 A, Khetwadi 10th Lane, Mumbai 400 004.aar,Mumbai-400004
                 </p>
               </div>
             </div>

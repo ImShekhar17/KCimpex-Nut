@@ -61,22 +61,28 @@ export default function ProductsPage() {
     <div className="min-h-screen flex flex-col">
       <Header />
 
-      <div
-        className="relative bg-cover bg-center py-16 md:py-24 lg:py-32"
-        style={{
-          backgroundImage: 'url(https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&w=1260)',
-        }}
-      >
-        <div className="absolute inset-0 bg-[#1e3a8a] bg-opacity-80"></div>
-        <div className="container mx-auto px-4 relative z-10">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-3 md:mb-4">PRODUCT</h1>
-          <div className="flex items-center gap-2 text-white text-sm md:text-base lg:text-lg">
-            <Link to="/" className="hover:underline">Home</Link>
-            <span>→</span>
-            <span className="font-semibold">Product</span>
-          </div>
-        </div>
-      </div>
+<div className="relative py-16 md:py-24 lg:py-32 overflow-hidden">
+  {/* Background image */}
+  <img
+    src="/AllHero.jpg"
+    alt="Product Background"
+    className="absolute inset-0 w-full h-full object-cover"
+  />
+
+  {/* Dark overlay */}
+  <div className="absolute inset-0 bg-[#1e3a8a] bg-opacity-80"></div>
+
+  {/* Content */}
+  <div className="container mx-auto px-4 relative z-10">
+    <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-3 md:mb-4">PRODUCT</h1>
+    <div className="flex items-center gap-2 text-white text-sm md:text-base lg:text-lg">
+      <Link to="/" className="hover:underline">Home</Link>
+      <span>→</span>
+      <span className="font-semibold">Product</span>
+    </div>
+  </div>
+</div>
+
 
       <div className="flex-grow bg-white py-8 md:py-12 lg:py-16">
         <div className="container mx-auto px-4">

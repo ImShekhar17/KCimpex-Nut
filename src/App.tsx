@@ -36,11 +36,13 @@ import HasteloyC22Page from './pages/HasteloyC22Page';
 import HasteloyB2Page from './pages/HasteloyB2Page';
 import Monel400Page from './pages/Monel400Page';
 import MonelK500Page from './pages/MonelK500Page';
+import ScrollTop from './components/ScrollTop';
 
 
 function App() {
   return (
     <Router>
+      <ScrollTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />

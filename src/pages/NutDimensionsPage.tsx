@@ -130,26 +130,30 @@ const NutDimensionsPage = () => {
     <div className="min-h-screen bg-gray-50">
       <Header />
 
-      <div
-        className="relative bg-cover bg-center py-20"
-        style={{
-          backgroundImage:
-            'linear-gradient(rgba(21, 48, 99, 0.85), rgba(21, 48, 99, 0.85)), url(https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=1920)',
-        }}
-      >
-        <div className="max-w-7xl mx-auto px-6">
-          <h1 className="text-5xl font-bold text-white mb-4 border-b-4 border-white inline-block pb-2">
-            NUT DIMENSIONS
-          </h1>
-          <div className="flex items-center text-white text-sm mt-4">
-            <Link to="/" className="hover:underline">
-              Home
-            </Link>
-            <ChevronRight className="w-4 h-4 mx-2" />
-            <span>Nut Dimensions</span>
-          </div>
-        </div>
-      </div>
+<div className="relative py-20 overflow-hidden">
+  <img
+    src="/AllHero.jpg"
+    alt="Nut Dimensions Background"
+    className="absolute inset-0 w-full h-full object-cover"
+  />
+  <div
+    className="absolute inset-0 bg-[#153063]"
+    style={{ opacity: 0.85 }}
+  ></div>
+  <div className="max-w-7xl mx-auto px-6 relative z-10">
+    <h1 className="text-5xl font-bold text-white mb-4 border-b-4 border-white inline-block pb-2">
+      NUT DIMENSIONS
+    </h1>
+    <div className="flex items-center text-white text-sm mt-4">
+      <Link to="/" className="hover:underline">
+        Home
+      </Link>
+      <ChevronRight className="w-4 h-4 mx-2" />
+      <span>Nut Dimensions</span>
+    </div>
+  </div>
+</div>
+
 
       <div className="max-w-7xl mx-auto px-6 py-12">
         <div className="bg-white rounded-lg shadow-sm p-8 mb-12">

@@ -10,20 +10,16 @@ import Thrust from '../../public/Thrust.jpg';
 export default function AboutPage() {
   const certifications = [
     {
-      title: 'ISO 9001:2015',
-      image: 'https://images.pexels.com/photos/6863332/pexels-photo-6863332.jpeg?auto=compress&cs=tinysrgb&w=800',
-    },
-    {
       title: 'ISO 14001:2015',
-      image: 'https://images.pexels.com/photos/6863332/pexels-photo-6863332.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: '/ISO1.jpg',
     },
     {
-      title: 'UDYAM Registration',
-      image: 'https://images.pexels.com/photos/6863332/pexels-photo-6863332.jpeg?auto=compress&cs=tinysrgb&w=800',
+      title: 'ISO 9001:2015',
+      image: '/ISO2.jpg',
     },
     {
-      title: 'GST Certificate',
-      image: 'https://images.pexels.com/photos/6863332/pexels-photo-6863332.jpeg?auto=compress&cs=tinysrgb&w=800',
+      title: 'ISO 45001:2023',
+      image: '/ISO3.jpg',
     },
   ];
 
@@ -32,22 +28,28 @@ export default function AboutPage() {
       <Header />
 
       {/* Hero Section */}
-      <div
-        className="relative h-[300px] bg-cover bg-center flex items-center"
-        style={{
-          backgroundImage: 'url(https://images.pexels.com/photos/190574/pexels-photo-190574.jpeg?auto=compress&cs=tinysrgb&w=1920)',
-        }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-r from-[#1e3a8a]/90 to-[#1e3a8a]/70"></div>
-        <div className="container mx-auto px-4 relative z-10">
-          <h1 className="text-5xl font-bold text-white mb-4">ABOUT US</h1>
-          <div className="flex items-center gap-2 text-white text-sm">
-            <Link to="/" className="hover:underline">Home</Link>
-            <span>→</span>
-            <span>About Us</span>
-          </div>
-        </div>
-      </div>
+<div className="relative h-[300px] flex items-center overflow-hidden">
+  {/* Background Image */}
+  <img
+    src="/AllHero.jpg"
+    alt="About Us Background"
+    className="absolute inset-0 w-full h-full object-cover"
+  />
+
+  {/* Gradient Overlay */}
+  <div className="absolute inset-0 bg-gradient-to-r from-[#1e3a8a]/90 to-[#1e3a8a]/70"></div>
+
+  {/* Content */}
+  <div className="container mx-auto px-4 relative z-10">
+    <h1 className="text-5xl font-bold text-white mb-4">ABOUT US</h1>
+    <div className="flex items-center gap-2 text-white text-sm">
+      <Link to="/" className="hover:underline">Home</Link>
+      <span>→</span>
+      <span>About Us</span>
+    </div>
+  </div>
+</div>
+
 
       {/* Company History Section */}
       <section className="py-20 bg-white">
@@ -313,7 +315,7 @@ export default function AboutPage() {
             <h2 className="text-4xl font-bold text-gray-900">Our Certifications</h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {certifications.map((cert, index) => (
               <div key={index} className="group">
                 <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow">

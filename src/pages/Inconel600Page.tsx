@@ -254,7 +254,7 @@ const Inconel600Page = () => {
                 <div className="text-center">
                   <div className="mb-4 flex justify-center">
                     <img
-                      src="https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=400"
+                      src="/UniversalNut.webp"
                       alt="Nut"
                       className="w-full h-48 object-cover rounded-lg"
                     />
@@ -273,7 +273,7 @@ const Inconel600Page = () => {
                 <div className="text-center">
                   <div className="mb-4 flex justify-center">
                     <img
-                      src="https://images.pexels.com/photos/209235/pexels-photo-209235.jpeg?auto=compress&cs=tinysrgb&w=400"
+                      src="/UniversalBolt.webp"
                       alt="Bolt"
                       className="w-full h-48 object-cover rounded-lg"
                     />
@@ -292,7 +292,7 @@ const Inconel600Page = () => {
                 <div className="text-center">
                   <div className="mb-4 flex justify-center">
                     <img
-                      src="https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=400"
+                      src="/UniversalWasher.webp"
                       alt="Washer"
                       className="w-full h-48 object-cover rounded-lg"
                     />

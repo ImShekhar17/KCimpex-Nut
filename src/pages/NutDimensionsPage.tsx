@@ -158,9 +158,12 @@ const NutDimensionsPage = () => {
           </h2>
 
           <div className="mb-8 flex justify-center">
-            <div className="bg-gray-100 p-6 rounded-lg">
-              <p className="text-gray-600 text-center italic">Hex Nut Technical Diagram</p>
-            </div>
+            <img
+              src="/HXDimen.webp"
+              alt="Hex Nut & JAM Nut Diagram"
+              className="max-w-full h-auto rounded-lg"
+              style={{ maxHeight: '300px' }}
+            />
           </div>
 
           <div className="mb-12">
@@ -234,10 +237,13 @@ const NutDimensionsPage = () => {
             HEAVY HEX NUT DIMENSIONS
           </h2>
 
-          <div className="mb-8 flex justify-center">
-            <div className="bg-gray-100 p-6 rounded-lg">
-              <p className="text-gray-600 text-center italic">Heavy Hex Nut Technical Diagram</p>
-            </div>
+           <div className="mb-8 flex justify-center">
+            <img
+              src="/HXDimen.webp"
+              alt="Square Bolt Diagram"
+              className="max-w-full h-auto rounded-lg"
+              style={{ maxHeight: '300px' }}
+            />
           </div>
 
           <div className="overflow-x-auto">

@@ -249,7 +249,84 @@ const SS316TiPage = () => {
                 </table>
               </div>
 
+
+
               <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8 border-b border-gray-300 pb-2">
+                Types of SS 316Ti Fasteners
+              </h3>
+              <p className="text-gray-700 mb-6">Each SS 316Ti Fasteners have unique design each of them are used in specific applications. Some of them are mentioned below.</p>
+
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                <div className="border border-gray-200 rounded-lg overflow-hidden">
+                  <div className="aspect-square bg-gray-100 flex items-center justify-center">
+                    <img src="/UniversalNut.webp" alt="SS 316Ti Nuts" className="w-full h-full object-cover" />
+                  </div>
+                  <div className="p-4">
+                    <h4 className="text-xl font-bold text-gray-900 mb-3">Nut</h4>
+                    <div className="grid grid-cols-2 gap-2 text-sm">
+                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Hex Nuts</span></div>
+                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Heavy Hex Nut</span></div>
+                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Square Nut</span></div>
+                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Dome Nut</span></div>
+                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Nylock Nut</span></div>
+                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Wing Nut</span></div>
+                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Lock Nut</span></div>
+                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Cage Nut</span></div>
+                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Coupling Nut</span></div>
+                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Cap Nut</span></div>
+                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Cross Hole Nut</span></div>
+                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Castle Nut</span></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="border border-gray-200 rounded-lg overflow-hidden">
+                  <div className="aspect-square bg-gray-100 flex items-center justify-center">
+                    <img src="/UniversalBolt.webp" alt="SS 316Ti Bolts" className="w-full h-full object-cover" />
+                  </div>
+                  <div className="p-4">
+                    <h4 className="text-xl font-bold text-gray-900 mb-3">Bolt</h4>
+                    <div className="grid grid-cols-2 gap-2 text-sm">
+                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Hex Bolt</span></div>
+                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Stud Bolt</span></div>
+                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Allen Bolt</span></div>
+                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Eye Bolt</span></div>
+                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Anchor Bolt</span></div>
+                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Square Head Bolt</span></div>
+                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Hex Flange Bolt</span></div>
+                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Carriage Bolt</span></div>
+                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Coil Bolt</span></div>
+                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>J Bolt</span></div>
+                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>L Bolt</span></div>
+                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>T Bolt</span></div>
+                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>U Bolt</span></div>
+                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Elevator Bucket Bolt</span></div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="border border-gray-200 rounded-lg overflow-hidden">
+                  <div className="aspect-square bg-gray-100 flex items-center justify-center">
+                    <img src="/UniversalWasher.webp" alt="SS 316Ti Washers" className="w-full h-full object-cover" />
+                  </div>
+                  <div className="p-4">
+                    <h4 className="text-xl font-bold text-gray-900 mb-3">Washer</h4>
+                    <div className="grid grid-cols-2 gap-2 text-sm">
+                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Belleville Washers</span></div>
+                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Bonded Sealing Washers</span></div>
+                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Flat Washers</span></div>
+                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Lock Washers</span></div>
+                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Spring Washers</span></div>
+                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Star Washers</span></div>
+                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Square Washer</span></div>
+                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Plain Washers</span></div>
+                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Countersunk Washer</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+                            <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8 border-b border-gray-300 pb-2">
                 Applications Of SS 316Ti
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
@@ -275,81 +352,6 @@ const SS316TiPage = () => {
                   </div>
                   <div className="p-4 text-center">
                     <h4 className="text-lg font-bold text-gray-900">Chemical Industry</h4>
-                  </div>
-                </div>
-              </div>
-
-              <h3 className="text-2xl font-bold text-gray-900 mb-4 mt-8 border-b border-gray-300 pb-2">
-                Types of SS 316Ti Fasteners
-              </h3>
-              <p className="text-gray-700 mb-6">Each SS 316Ti Fasteners have unique design each of them are used in specific applications. Some of them are mentioned below.</p>
-
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-                <div className="border border-gray-200 rounded-lg overflow-hidden">
-                  <div className="aspect-square bg-gray-100 flex items-center justify-center">
-                    <img src="https://images.pexels.com/photos/209235/pexels-photo-209235.jpeg?auto=compress&cs=tinysrgb&w=400" alt="SS 316Ti Nuts" className="w-full h-full object-cover" />
-                  </div>
-                  <div className="p-4">
-                    <h4 className="text-xl font-bold text-gray-900 mb-3">Nut</h4>
-                    <div className="grid grid-cols-2 gap-2 text-sm">
-                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Hex Nuts</span></div>
-                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Heavy Hex Nut</span></div>
-                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Square Nut</span></div>
-                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Dome Nut</span></div>
-                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Nylock Nut</span></div>
-                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Wing Nut</span></div>
-                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Lock Nut</span></div>
-                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Cage Nut</span></div>
-                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Coupling Nut</span></div>
-                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Cap Nut</span></div>
-                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Cross Hole Nut</span></div>
-                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Castle Nut</span></div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="border border-gray-200 rounded-lg overflow-hidden">
-                  <div className="aspect-square bg-gray-100 flex items-center justify-center">
-                    <img src="https://images.pexels.com/photos/209235/pexels-photo-209235.jpeg?auto=compress&cs=tinysrgb&w=400" alt="SS 316Ti Bolts" className="w-full h-full object-cover" />
-                  </div>
-                  <div className="p-4">
-                    <h4 className="text-xl font-bold text-gray-900 mb-3">Bolt</h4>
-                    <div className="grid grid-cols-2 gap-2 text-sm">
-                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Hex Bolt</span></div>
-                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Stud Bolt</span></div>
-                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Allen Bolt</span></div>
-                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Eye Bolt</span></div>
-                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Anchor Bolt</span></div>
-                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Square Head Bolt</span></div>
-                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Hex Flange Bolt</span></div>
-                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Carriage Bolt</span></div>
-                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Coil Bolt</span></div>
-                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>J Bolt</span></div>
-                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>L Bolt</span></div>
-                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>T Bolt</span></div>
-                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>U Bolt</span></div>
-                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Elevator Bucket Bolt</span></div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="border border-gray-200 rounded-lg overflow-hidden">
-                  <div className="aspect-square bg-gray-100 flex items-center justify-center">
-                    <img src="https://images.pexels.com/photos/209235/pexels-photo-209235.jpeg?auto=compress&cs=tinysrgb&w=400" alt="SS 316Ti Washers" className="w-full h-full object-cover" />
-                  </div>
-                  <div className="p-4">
-                    <h4 className="text-xl font-bold text-gray-900 mb-3">Washer</h4>
-                    <div className="grid grid-cols-2 gap-2 text-sm">
-                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Belleville Washers</span></div>
-                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Bonded Sealing Washers</span></div>
-                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Flat Washers</span></div>
-                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Lock Washers</span></div>
-                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Spring Washers</span></div>
-                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Star Washers</span></div>
-                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Square Washer</span></div>
-                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Plain Washers</span></div>
-                      <div className="flex items-start gap-1"><span className="text-gray-600">◎</span><span>Countersunk Washer</span></div>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -429,10 +431,10 @@ const SS316TiPage = () => {
       >
         <div className="max-w-4xl mx-auto text-center px-6">
           <h2 className="text-4xl font-bold text-white mb-4">
-            Contact K.C. Impex Today
+            Contact Horizon Metal & Alloys Today
           </h2>
           <p className="text-white mb-8 leading-relaxed">
-            Choose K.C. Impex for your bolt needs and experience the difference quality, expertise, and commitment can make in your projects. Contact us today to discuss your requirements, request a quote, or place an order. Join countless satisfied customers who rely on K.C. Impex for premium bolts and exceptional service.
+            Choose Horizon Metal & Alloys for your bolt needs and experience the difference quality, expertise, and commitment can make in your projects. Contact us today to discuss your requirements, request a quote, or place an order. Join countless satisfied customers who rely on Horizon Metal & Alloys for premium bolts and exceptional service.
           </p>
           <Link
             to="/contact"

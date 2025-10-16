@@ -128,36 +128,13 @@ const WasherDimensionsPage = () => {
             S.A.E. DIMENSIONS FOR HARDENED FLAT WASHERS
           </h2>
 
-          <div className="mb-12 flex justify-center bg-gray-50 p-8 rounded-lg">
-            <div className="text-center">
-              <svg width="400" height="300" viewBox="0 0 400 300" className="mx-auto">
-                <defs>
-                  <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
-                    <polygon points="0 0, 10 3, 0 6" fill="#1e3a8a" />
-                  </marker>
-                </defs>
-
-                <circle cx="200" cy="150" r="80" fill="none" stroke="#1e3a8a" strokeWidth="2"/>
-                <circle cx="200" cy="150" r="30" fill="none" stroke="#1e3a8a" strokeWidth="2"/>
-
-                <line x1="120" y1="150" x2="280" y2="150" stroke="#1e3a8a" strokeWidth="1" strokeDasharray="5,5"/>
-                <line x1="200" y1="70" x2="200" y2="230" stroke="#1e3a8a" strokeWidth="1" strokeDasharray="5,5"/>
-
-                <line x1="120" y1="40" x2="280" y2="40" stroke="#1e3a8a" strokeWidth="1.5" markerEnd="url(#arrowhead)"/>
-                <line x1="280" y1="40" x2="120" y2="40" stroke="#1e3a8a" strokeWidth="1.5" markerEnd="url(#arrowhead)"/>
-                <text x="200" y="30" textAnchor="middle" fill="#1e3a8a" fontSize="18" fontWeight="bold">A</text>
-
-                <line x1="170" y1="120" x2="230" y2="120" stroke="#1e3a8a" strokeWidth="1.5" markerEnd="url(#arrowhead)"/>
-                <line x1="230" y1="120" x2="170" y2="120" stroke="#1e3a8a" strokeWidth="1.5" markerEnd="url(#arrowhead)"/>
-                <text x="200" y="110" textAnchor="middle" fill="#1e3a8a" fontSize="18" fontWeight="bold">B</text>
-
-                <rect x="310" y="130" width="60" height="40" fill="none" stroke="#1e3a8a" strokeWidth="2"/>
-                <line x1="310" y1="190" x2="310" y2="210" stroke="#1e3a8a" strokeWidth="1.5" markerEnd="url(#arrowhead)"/>
-                <line x1="370" y1="190" x2="370" y2="210" stroke="#1e3a8a" strokeWidth="1.5" markerEnd="url(#arrowhead)"/>
-                <text x="340" y="225" textAnchor="middle" fill="#1e3a8a" fontSize="18" fontWeight="bold">C</text>
-              </svg>
-              <p className="text-gray-600 mt-4 italic">Flat Washer Technical Diagram</p>
-            </div>
+          <div className="mb-8 flex justify-center">
+            <img
+              src="/SAE.webp"
+              alt="Square Bolt Diagram"
+              className="max-w-full h-auto rounded-lg"
+              style={{ maxHeight: '300px' }}
+            />
           </div>
 
           <div className="mb-8">
@@ -197,33 +174,14 @@ const WasherDimensionsPage = () => {
             <h3 className="text-xl font-bold text-[#1e3a8a] mb-4 pb-2 border-b-2 border-[#1e3a8a]">
               Table W2 - USS DIMENSIONS FOR HARDENED FLAT WASHERS
             </h3>
-            <div className="overflow-x-auto">
-              <table className="w-full border border-gray-300 text-sm">
-                <thead>
-                  <tr className="bg-[#1e3a8a] text-white">
-                    <th className="px-4 py-3 text-left font-semibold border-r border-white" rowSpan={2}>Bolts Size</th>
-                    <th className="px-4 py-3 text-center font-semibold border-r border-white" rowSpan={2}>A<br/>O.D.</th>
-                    <th className="px-4 py-3 text-center font-semibold border-r border-white" rowSpan={2}>B<br/>I.D.</th>
-                    <th className="px-4 py-3 text-center font-semibold" colSpan={2}>C<br/>Thickness</th>
-                  </tr>
-                  <tr className="bg-[#1e3a8a] text-white">
-                    <th className="px-4 py-2 text-center font-semibold border-r border-white">Min</th>
-                    <th className="px-4 py-2 text-center font-semibold">Max</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {ussWasherData.map((row, index) => (
-                    <tr key={index} className={index % 2 === 0 ? 'bg-white' : 'bg-blue-50'}>
-                      <td className="px-4 py-3 border border-gray-300 font-medium">{row.size}</td>
-                      <td className="px-4 py-3 border border-gray-300 text-center">{row.aOD}</td>
-                      <td className="px-4 py-3 border border-gray-300 text-center">{row.bID}</td>
-                      <td className="px-4 py-3 border border-gray-300 text-center">{row.cMin}</td>
-                      <td className="px-4 py-3 border border-gray-300 text-center">{row.cMax}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
+          <div className="mb-8 flex justify-center">
+            <img
+              src="/SAE.webp"
+              alt="Square Bolt Diagram"
+              className="max-w-full h-auto rounded-lg"
+              style={{ maxHeight: '300px' }}
+            />
+          </div>
           </div>
 
           <div className="mb-8 mt-12">
@@ -259,62 +217,14 @@ const WasherDimensionsPage = () => {
               SPRING STEEL & HARDENED STEEL SPLIT LOCK WASHER DIMENSIONS
             </h2>
 
-            <div className="mb-12 flex justify-center bg-gray-50 p-8 rounded-lg">
-              <div className="text-center">
-                <svg width="600" height="250" viewBox="0 0 600 250" className="mx-auto">
-                  <defs>
-                    <marker id="arrowhead2" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
-                      <polygon points="0 0, 10 3, 0 6" fill="#1e3a8a" />
-                    </marker>
-                  </defs>
-
-                  <polygon points="120,80 140,60 160,70 170,90 165,115 150,130 130,125 115,105"
-                    fill="none" stroke="#1e3a8a" strokeWidth="2"/>
-
-                  <line x1="100" y1="60" x2="100" y2="130" stroke="#1e3a8a" strokeWidth="1.5" markerEnd="url(#arrowhead2)"/>
-                  <line x1="100" y1="130" x2="100" y2="60" stroke="#1e3a8a" strokeWidth="1.5" markerEnd="url(#arrowhead2)"/>
-                  <text x="80" y="95" textAnchor="middle" fill="#1e3a8a" fontSize="16" fontWeight="bold">C</text>
-
-                  <line x1="115" y1="50" x2="165" y2="50" stroke="#1e3a8a" strokeWidth="1.5" markerEnd="url(#arrowhead2)"/>
-                  <line x1="165" y1="50" x2="115" y2="50" stroke="#1e3a8a" strokeWidth="1.5" markerEnd="url(#arrowhead2)"/>
-                  <text x="140" y="40" textAnchor="middle" fill="#1e3a8a" fontSize="16" fontWeight="bold">B</text>
-
-                  <rect x="300" y="70" width="80" height="80" fill="none" stroke="#1e3a8a" strokeWidth="2"/>
-                  <rect x="320" y="110" width="40" height="40" fill="#e0e7ff" stroke="#1e3a8a" strokeWidth="2"/>
-
-                  <line x1="360" y1="110" x2="380" y2="110" stroke="#1e3a8a" strokeWidth="1.5" markerEnd="url(#arrowhead2)"/>
-                  <line x1="360" y1="150" x2="380" y2="150" stroke="#1e3a8a" strokeWidth="1.5" markerEnd="url(#arrowhead2)"/>
-                  <text x="395" y="130" textAnchor="middle" fill="#1e3a8a" fontSize="16" fontWeight="bold">A</text>
-
-                  <line x1="390" y1="70" x2="410" y2="70" stroke="#1e3a8a" strokeWidth="1.5" markerEnd="url(#arrowhead2)"/>
-                  <line x1="390" y1="110" x2="410" y2="110" stroke="#1e3a8a" strokeWidth="1.5" markerEnd="url(#arrowhead2)"/>
-                  <text x="425" y="90" textAnchor="middle" fill="#1e3a8a" fontSize="16" fontWeight="bold">E</text>
-
-                  <line x1="320" y1="160" x2="320" y2="175" stroke="#1e3a8a" strokeWidth="1.5" markerEnd="url(#arrowhead2)"/>
-                  <line x1="360" y1="160" x2="360" y2="175" stroke="#1e3a8a" strokeWidth="1.5" markerEnd="url(#arrowhead2)"/>
-                  <text x="340" y="190" textAnchor="middle" fill="#1e3a8a" fontSize="16" fontWeight="bold">D</text>
-
-                  <path d="M 440 70 L 570 70 L 590 150 L 440 150" fill="none" stroke="#1e3a8a" strokeWidth="2"/>
-
-                  <g transform="translate(530, 70)">
-                    <path d="M 0 0 Q 5 10, 0 20 Q -5 30, 0 40 Q 5 50, 0 60 Q -5 70, 0 80"
-                      fill="none" stroke="#1e3a8a" strokeWidth="1.5"/>
-                  </g>
-
-                  <line x1="435" y1="70" x2="435" y2="150" stroke="#1e3a8a" strokeWidth="1.5" markerEnd="url(#arrowhead2)"/>
-                  <line x1="435" y1="150" x2="435" y2="70" stroke="#1e3a8a" strokeWidth="1.5" markerEnd="url(#arrowhead2)"/>
-                  <text x="420" y="110" textAnchor="middle" fill="#1e3a8a" fontSize="16" fontWeight="bold">F</text>
-
-                  <line x1="595" y1="135" x2="605" y2="135" stroke="#1e3a8a" strokeWidth="1.5" markerEnd="url(#arrowhead2)"/>
-                  <line x1="595" y1="150" x2="605" y2="150" stroke="#1e3a8a" strokeWidth="1.5" markerEnd="url(#arrowhead2)"/>
-                  <text x="615" y="142" textAnchor="middle" fill="#1e3a8a" fontSize="14" fontWeight="bold">G</text>
-
-                  <text x="465" y="165" textAnchor="middle" fill="#1e3a8a" fontSize="12">30° +0°</text>
-                  <text x="475" y="180" textAnchor="middle" fill="#1e3a8a" fontSize="12">-15°</text>
-                </svg>
-                <p className="text-gray-600 mt-4 italic">Split Lock Washer Technical Diagram</p>
-              </div>
-            </div>
+          <div className="mb-8 flex justify-center">
+            <img
+              src="/Springg.webp"
+              alt="Square Bolt Diagram"
+              className="max-w-full h-auto rounded-lg"
+              style={{ maxHeight: '300px' }}
+            />
+          </div>
 
             <h3 className="text-xl font-bold text-[#1e3a8a] mb-4 pb-2 border-b-2 border-[#1e3a8a]">
               Table W4 - SPRING STEEL & HARDENED STEEL SPLIT LOCK WASHER DIMENSIONS
@@ -360,39 +270,14 @@ const WasherDimensionsPage = () => {
               HARDENED BEVELED WASHER DIMENSIONS
             </h2>
 
-            <div className="mb-12 flex justify-center bg-gray-50 p-8 rounded-lg">
-              <div className="text-center">
-                <svg width="400" height="250" viewBox="0 0 400 250" className="mx-auto">
-                  <defs>
-                    <marker id="arrowhead3" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
-                      <polygon points="0 0, 10 3, 0 6" fill="#1e3a8a" />
-                    </marker>
-                  </defs>
-
-                  <ellipse cx="200" cy="120" rx="70" ry="15" fill="none" stroke="#1e3a8a" strokeWidth="2"/>
-                  <line x1="130" y1="120" x2="130" y2="190" stroke="#1e3a8a" strokeWidth="2"/>
-                  <line x1="270" y1="120" x2="270" y2="190" stroke="#1e3a8a" strokeWidth="2"/>
-                  <ellipse cx="200" cy="190" rx="70" ry="15" fill="none" stroke="#1e3a8a" strokeWidth="2"/>
-
-                  <circle cx="200" cy="155" r="25" fill="#e0e7ff" stroke="#1e3a8a" strokeWidth="2"/>
-
-                  <line x1="110" y1="120" x2="110" y2="190" stroke="#1e3a8a" strokeWidth="1.5" markerEnd="url(#arrowhead3)"/>
-                  <line x1="110" y1="190" x2="110" y2="120" stroke="#1e3a8a" strokeWidth="1.5" markerEnd="url(#arrowhead3)"/>
-                  <text x="90" y="155" textAnchor="middle" fill="#1e3a8a" fontSize="18" fontWeight="bold">B</text>
-
-                  <line x1="130" y1="100" x2="270" y2="100" stroke="#1e3a8a" strokeWidth="1.5" markerEnd="url(#arrowhead3)"/>
-                  <line x1="270" y1="100" x2="130" y2="100" stroke="#1e3a8a" strokeWidth="1.5" markerEnd="url(#arrowhead3)"/>
-                  <text x="200" y="90" textAnchor="middle" fill="#1e3a8a" fontSize="18" fontWeight="bold">A</text>
-
-                  <rect x="310" y="120" width="60" height="70" fill="none" stroke="#1e3a8a" strokeWidth="2"/>
-                  <line x1="310" y1="120" x2="370" y2="155" stroke="#1e3a8a" strokeWidth="2"/>
-                  <line x1="310" y1="195" x2="310" y2="210" stroke="#1e3a8a" strokeWidth="1.5" markerEnd="url(#arrowhead3)"/>
-                  <line x1="370" y1="195" x2="370" y2="210" stroke="#1e3a8a" strokeWidth="1.5" markerEnd="url(#arrowhead3)"/>
-                  <text x="340" y="225" textAnchor="middle" fill="#1e3a8a" fontSize="18" fontWeight="bold">C</text>
-                </svg>
-                <p className="text-gray-600 mt-4 italic">Beveled Washer Technical Diagram</p>
-              </div>
-            </div>
+           <div className="mb-8 flex justify-center">
+            <img
+              src="/HARD.webp"
+              alt="Square Bolt Diagram"
+              className="max-w-full h-auto rounded-lg"
+              style={{ maxHeight: '300px' }}
+            />
+          </div>
 
             <h3 className="text-xl font-bold text-[#1e3a8a] mb-4 pb-2 border-b-2 border-[#1e3a8a]">
               Table W5 - HARDENED BEVELED WASHER DIMENSIONS

@@ -197,7 +197,7 @@ const Monel400Page = () => {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
                 <div className="border border-gray-200 rounded-lg overflow-hidden">
                   <div className="aspect-square bg-gray-100 flex items-center justify-center">
-                    <img src="https://images.pexels.com/photos/209235/pexels-photo-209235.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Monel 400 Nuts" className="w-full h-full object-cover" />
+                    <img src="/UniversalNut.webp" alt="Monel 400 Nuts" className="w-full h-full object-cover" />
                   </div>
                   <div className="p-4">
                     <h4 className="text-xl font-bold text-gray-900 mb-3">Nut</h4>
@@ -219,7 +219,7 @@ const Monel400Page = () => {
 
                 <div className="border border-gray-200 rounded-lg overflow-hidden">
                   <div className="aspect-square bg-gray-100 flex items-center justify-center">
-                    <img src="https://images.pexels.com/photos/209235/pexels-photo-209235.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Monel 400 Bolts" className="w-full h-full object-cover" />
+                    <img src="/UniversalBolt.webp" alt="Monel 400 Bolts" className="w-full h-full object-cover" />
                   </div>
                   <div className="p-4">
                     <h4 className="text-xl font-bold text-gray-900 mb-3">Bolt</h4>
@@ -243,7 +243,7 @@ const Monel400Page = () => {
 
                 <div className="border border-gray-200 rounded-lg overflow-hidden">
                   <div className="aspect-square bg-gray-100 flex items-center justify-center">
-                    <img src="https://images.pexels.com/photos/209235/pexels-photo-209235.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Monel 400 Washers" className="w-full h-full object-cover" />
+                    <img src="/UniversalWasher.webp" alt="Monel 400 Washers" className="w-full h-full object-cover" />
                   </div>
                   <div className="p-4">
                     <h4 className="text-xl font-bold text-gray-900 mb-3">Washer</h4>
@@ -498,10 +498,10 @@ const Monel400Page = () => {
       >
         <div className="max-w-4xl mx-auto text-center px-6">
           <h2 className="text-4xl font-bold text-white mb-4">
-            Contact K.C. Impex Today
+            Contact Horizon Metal & Alloys Today
           </h2>
           <p className="text-white mb-8 leading-relaxed">
-            Choose K.C. Impex for your bolt needs and experience the difference quality, expertise, and commitment can make in your projects. Contact us today to discuss your requirements, request a quote, or place an order. Join countless satisfied customers who rely on K.C. Impex for premium bolts and exceptional service.
+            Choose Horizon Metal & Alloys for your bolt needs and experience the difference quality, expertise, and commitment can make in your projects. Contact us today to discuss your requirements, request a quote, or place an order. Join countless satisfied customers who rely on Horizon Metal & Alloys for premium bolts and exceptional service.
           </p>
           <Link
             to="/contact"

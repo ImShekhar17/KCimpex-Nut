@@ -135,8 +135,8 @@ export default function ContactPage() {
                         <Phone size={24} />
                       </div>
                       <div>
-                        <p className="text-white">+91 9664665685</p>
-                        <p className="text-white">+91 2231693855</p>
+                        <p className="text-white">+91 22 66151888</p>
+                        {/* <p className="text-white">+91 2231693855</p> */}
                       </div>
                     </div>
                   </div>
@@ -148,8 +148,8 @@ export default function ContactPage() {
                         <Mail size={24} />
                       </div>
                       <div>
-                        <p className="text-white break-words">admin@kcimpex.com</p>
-                        <p className="text-white break-words">sales@kcimpex.com</p>
+                        <p className="text-white break-words">info@horizon-metal.com</p>
+                        {/* <p className="text-white break-words">sales@kcimpex.com</p> */}
                       </div>
                     </div>
                   </div>
@@ -162,7 +162,7 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <p className="text-white leading-relaxed">
-                          11A/11C, 4th Lane Sitaphalwadi, Near Mazgaon mustafa bazaar, Mumbai 400010
+                          Rahimtulla Ladak Bldg., 46 A, Khetwadi 10th Lane, Mumbai 400 004.aar,Mumbai-400010
                         </p>
                       </div>
                     </div>

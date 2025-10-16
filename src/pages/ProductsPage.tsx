@@ -10,42 +10,50 @@ export default function ProductsPage() {
     {
       id: 'bolt',
       name: 'Bolt',
-      image: '/BOLT.webp'
+      image: '/BOLT.webp',
+      link: '/products/bolts', 
     },
     {
       id: 'nut',
       name: 'Nut',
       image: '/NUT.webp',
+      link: '/products/nuts',
     },
     {
       id: 'washer',
       name: 'Washer',
-      image: '/Washer.webp'
+      image: '/Washer.webp',
+      link: '/products/washers', 
     },
     {
       id: 'screws',
       name: 'Screws',
-      image: '/Screws.webp'
+      image: '/Screws.webp',
+      link: '/products/screws', 
     },
     {
       id: 'studs',
       name: 'Studs',
-      image: 'Studs.webp'
+      image: 'Studs.webp',
+      link: '/products/studs',
     },
     {
       id: 'round-bar',
       name: 'Round Bar',
-      image: '/Pipebar.webp'
+      image: '/Pipebar.webp',
+      link: '/products/round-bar',
     },
     {
       id: 'pipe-fittings',
       name: 'Pipe Fittings',
-      image: '/PipeFit.webp'
+      image: '/PipeFit.webp',
+      link: '/products/pipe-fittings',
     },
     {
       id: 'pipe',
       name: 'Pipe',
-      image: '/PIPE.webp'
+      image: '/PIPE.webp',
+      link: '/products/pipe', 
     }
   ];
 
@@ -74,8 +82,9 @@ export default function ProductsPage() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
             {products.map((product) => (
-              <div
+              <Link
                 key={product.id}
+                to={product.link}
                 className="group cursor-pointer transition-all duration-300 hover:scale-105"
               >
                 <div className="bg-white border-2 border-gray-200 rounded-lg overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300">
@@ -92,7 +101,7 @@ export default function ProductsPage() {
                     </h3>
                   </div>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>

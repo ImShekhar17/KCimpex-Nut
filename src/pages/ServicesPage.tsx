@@ -10,55 +10,55 @@ export default function ServicesPage() {
       id: 1,
       title: 'Forging',
       description: 'We specialize in various forging processes, including impression-Die Forging, Open Die Forging, Cold Forging, and Seamless Rolled Ring Forging.',
-      image: 'https://images.pexels.com/photos/8961493/pexels-photo-8961493.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: '/ServiceForging.webp'
     },
     {
       id: 2,
       title: 'Fabrication',
       description: 'We specialize in various fabrication processes, including Bending, Casting, Drawing, Welding, and Assembling.',
-      image: 'https://images.pexels.com/photos/1474993/pexels-photo-1474993.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: '/ServiceFab.webp'
     },
     {
       id: 3,
       title: 'Machining',
       description: 'We specialize in various machining processes, including Cutting, Shearing, Turning, Threading, Punching, Stamping, Drilling, and Centerless Grinding.',
-      image: 'https://images.pexels.com/photos/4489702/pexels-photo-4489702.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: '/ServiceMac.webp'
     },
     {
       id: 4,
       title: 'Heat Treatment',
       description: 'We specialize in various heat treatment processes, including Annealing, Hardening, Normalizing, and Tempering.',
-      image: 'https://images.pexels.com/photos/7005401/pexels-photo-7005401.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: '/HeatTreat.webp'
     },
     {
       id: 5,
       title: 'Coating',
       description: 'We specialize in various coating processes, including Anodizing, Galvanizing, Electroplating, Powder Coating, Porcelain Enamel Coating, and Epoxy Coating.',
-      image: 'https://images.pexels.com/photos/7235971/pexels-photo-7235971.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: '/Coating.webp'
     },
     {
       id: 6,
       title: 'Testing',
       description: 'We perform a variety of tests according to material and customer requirements, including Positive Material Identification Testing (PMI), Ultrasonic Testing (UT), Radiography Testing (X-Ray), Dye-Penetration Testing (PT), Spectro Analysis, Tensile Testing, and Hardness Testing.',
-      image: 'https://images.pexels.com/photos/8553846/pexels-photo-8553846.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: '/Testing.webp'
     },
     {
       id: 7,
       title: 'Logistics',
       description: 'We provide the fastest delivery options through a combination of road, rail, air, and sea transport.',
-      image: 'https://images.pexels.com/photos/4246098/pexels-photo-4246098.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: '/Logistic.webp'
     },
     {
       id: 8,
       title: 'Piping Package Solutions',
       description: 'We provide comprehensive piping solutions by assembling various types of piping products, including pipes, fittings, and flanges, into complete packages tailored to customer requirements. With many years of project management experience, each has a specialized and fully dedicated project management team to successfully oversee each stage of your project.',
-      image: 'https://images.pexels.com/photos/159358/construction-site-build-construction-work-159358.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: '/Piping.webp'
     },
     {
       id: 9,
       title: 'Customization',
       description: 'In addition to our standard product range, we manufacture custom-made products tailored to your specific needs, technical drawings, and specifications.',
-      image: 'https://images.pexels.com/photos/3846508/pexels-photo-3846508.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: '/Custom.webp'
     }
   ];
 

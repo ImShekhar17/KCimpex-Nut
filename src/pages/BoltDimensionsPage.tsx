@@ -105,7 +105,7 @@ const BoltDimensionsPage = () => {
 
           <div className="mb-8 flex justify-center">
             <img
-              src="https://images.pexels.com/photos/209235/pexels-photo-209235.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="/BoltDimension.webp"
               alt="Hex Bolt Diagram"
               className="max-w-full h-auto rounded-lg"
               style={{ maxHeight: '300px' }}
@@ -171,7 +171,7 @@ const BoltDimensionsPage = () => {
 
           <div className="mb-8 flex justify-center">
             <img
-              src="https://images.pexels.com/photos/209235/pexels-photo-209235.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="/BoltDimension.webp"
               alt="Heavy Hex Bolt Diagram"
               className="max-w-full h-auto rounded-lg"
               style={{ maxHeight: '300px' }}
@@ -236,7 +236,7 @@ const BoltDimensionsPage = () => {
 
           <div className="mb-8 flex justify-center">
             <img
-              src="https://images.pexels.com/photos/209235/pexels-photo-209235.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="/SquareBD.webp"
               alt="Square Bolt Diagram"
               className="max-w-full h-auto rounded-lg"
               style={{ maxHeight: '300px' }}

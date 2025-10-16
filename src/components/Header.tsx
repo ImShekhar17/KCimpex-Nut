@@ -253,9 +253,9 @@ export default function Header() {
 
                     {/* Calculators Submenu */}
                     <div className="absolute left-full top-0 w-56 bg-white rounded shadow-xl opacity-0 invisible group-hover/sub:opacity-100 group-hover/sub:visible transition-all duration-200">
-                      <a href="#weight-calculator" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
+                      {/* <a href="#weight-calculator" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a] border-b border-gray-100">
                         Weight Calculator
-                      </a>
+                      </a> */}
                       <Link to="/technical/weight-chart" className="block px-6 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#1e3a8a]">
                         Weight Chart
                       </Link>

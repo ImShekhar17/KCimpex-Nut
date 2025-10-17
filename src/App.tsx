@@ -37,11 +37,13 @@ import HasteloyB2Page from './pages/HasteloyB2Page';
 import Monel400Page from './pages/Monel400Page';
 import MonelK500Page from './pages/MonelK500Page';
 import ScrollTop from './components/ScrollTop';
+import { Toaster } from 'react-hot-toast';
 
 
 function App() {
   return (
     <Router>
+      <Toaster position="top-right" />
       <ScrollTop />
       <Routes>
         <Route path="/" element={<HomePage />} />

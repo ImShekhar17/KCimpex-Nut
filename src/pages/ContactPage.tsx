@@ -441,12 +441,12 @@ const handleSubmit = async (e: React.FormEvent) => {
                 <div className="border-t pt-6">
                   <h4 className="font-bold text-gray-700 mb-3">BRANCH</h4>
                   <div className="space-y-2">
-                    <div className="flex gap-3">
+                    {/* <div className="flex gap-3">
                       <MapPin className="text-[#1e3a8a] flex-shrink-0 mt-1" size={18} />
                       <p className="text-gray-700 text-sm leading-relaxed">
                         104,Vallabh Plaza, 1st Floor, Sant Kabir Road, Opp Kabir Mandir Vadodara – 390001.
                       </p>
-                    </div>
+                    </div> */}
                     <div className="flex gap-3 ml-8">
                       <Phone className="text-green-600 flex-shrink-0" size={18} />
                       <p className="text-gray-700 text-sm">+91 9821759598</p>
@@ -522,7 +522,7 @@ const handleSubmit = async (e: React.FormEvent) => {
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="hover:bg-gray-50 transition-colors">
+                  {/* <tr className="hover:bg-gray-50 transition-colors">
                     <td className="border border-gray-300 px-6 py-4 font-medium text-gray-800" colSpan={4}>
                       <div className="font-bold text-lg">Import Sale Contact</div>
                     </td>
@@ -534,7 +534,7 @@ const handleSubmit = async (e: React.FormEvent) => {
                     <td className="border border-gray-300 px-6 py-4">
                       <a href="mailto:info@horizon-metal.com" className="text-blue-600 hover:underline">info@horizon-metal.com</a>
                     </td>
-                  </tr>
+                  </tr> */}
 
                   <tr className="hover:bg-gray-50 transition-colors">
                     <td className="border border-gray-300 px-6 py-4 font-medium text-gray-800" colSpan={4}>

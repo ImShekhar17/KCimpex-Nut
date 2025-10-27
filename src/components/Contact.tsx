@@ -77,7 +77,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="text-lg md:text-xl font-semibold text-gray-800 mb-1 md:mb-2">Email</h3>
-                  <p className="text-sm md:text-base text-gray-700 font-medium">info@horizon-metal.com</p>
+                  <p className="text-sm md:text-base text-gray-700 font-medium">info@nutboltfactory.com </p>
                 </div>
               </div>
 

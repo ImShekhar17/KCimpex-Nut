@@ -360,7 +360,7 @@ export default function Header() {
                   <div>
                     <h3 className="font-bold text-gray-800 mb-2">Email Address</h3>
                     <p className="text-[#1e3a8a] hover:underline">
-                      <a href="mailto:info@horizon-metal.com">info@horizon-metal.com</a>
+                      <a href="mailto:info@horizon-metal.com">info@nutboltfactory.com</a>
                     </p>
                     {/* <p className="text-[#1e3a8a] hover:underline">
                       <a href="mailto:sales@kcimpex.com">sales@kcimpex.com</a>

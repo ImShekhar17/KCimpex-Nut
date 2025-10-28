@@ -499,9 +499,9 @@ const handleSubmit = async (e: React.FormEvent) => {
                     <a href="https://www.horizon-metal.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-sm block">
                       www.horizon-metal.com
                     </a>
-                    <a href="https://www.rutikolmetal.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-sm block">
+                    {/* <a href="https://www.rutikolmetal.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-sm block">
                       www.rutikolmetal.com
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>
